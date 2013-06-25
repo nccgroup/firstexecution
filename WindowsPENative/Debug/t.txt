@@ -1,0 +1,2580 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file WindowsPENative.exe
+
+PE signature found
+
+File Type: EXECUTABLE IMAGE
+
+FILE HEADER VALUES
+             14C machine (x86)
+               7 number of sections
+        51C943D9 time date stamp Tue Jun 25 08:16:41 2013
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+             102 characteristics
+                   Executable
+                   32 bit word machine
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+           10.00 linker version
+            4800 size of code
+            3C00 size of initialized data
+               0 size of uninitialized data
+           11078 entry point (00411078) @ILT+115(_wmainCRTStartup)
+            1000 base of code
+            1000 base of data
+          400000 image base (00400000 to 0041BFFF)
+            1000 section alignment
+             200 file alignment
+            5.01 operating system version
+            0.00 image version
+            5.01 subsystem version
+               0 Win32 version
+           1C000 size of image
+             400 size of headers
+               0 checksum
+               3 subsystem (Windows CUI)
+            8140 DLL characteristics
+                   Dynamic base
+                   NX compatible
+                   Terminal Server Aware
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+               0 [       0] RVA [size] of Export Directory
+           19000 [      3C] RVA [size] of Import Directory
+           1A000 [     459] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+           1B000 [     2FC] RVA [size] of Base Relocation Directory
+           16820 [      1C] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+           191B4 [     178] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+.textbss name
+   10000 virtual size
+    1000 virtual address (00401000 to 00410FFF)
+       0 size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+E00000A0 flags
+         Code
+         Uninitialized Data
+         Execute Read Write
+
+SECTION HEADER #2
+   .text name
+    473B virtual size
+   11000 virtual address (00411000 to 0041573A)
+    4800 size of raw data
+     400 file pointer to raw data (00000400 to 00004BFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+RAW DATA #2
+  00411000: CC CC CC CC CC E9 B6 16 00 00 E9 E1 0A 00 00 E9  лллллИ╤...ИА...И
+  00411010: 3C 15 00 00 E9 17 25 00 00 E9 DE 26 00 00 E9 7D  <...И.%..Ич&..И}
+  00411020: 17 00 00 E9 CE 26 00 00 E9 73 05 00 00 E9 DE 15  ...Ин&..Иs...Ич.
+  00411030: 00 00 E9 09 15 00 00 E9 3C 25 00 00 E9 01 17 00  ..И....И<%..И...
+  00411040: 00 E9 9E 26 00 00 E9 11 27 00 00 E9 8C 04 00 00  .И.&..И.'..И....
+  00411050: E9 EB 18 00 00 E9 C6 26 00 00 E9 05 1A 00 00 E9  ИК...Иф&..И....И
+  00411060: 92 1C 00 00 E9 F9 26 00 00 E9 92 18 00 00 E9 8F  ....ИЫ&..И....И.
+  00411070: 26 00 00 E9 F8 14 00 00 E9 F3 07 00 00 E9 8E 1C  &..ИЬ...ИС...И..
+  00411080: 00 00 E9 D9 24 00 00 E9 88 26 00 00 E9 8F 04 00  ..Иы$..И.&..И...
+  00411090: 00 E9 EA 24 00 00 E9 A7 24 00 00 E9 B8 19 00 00  .ИЙ$..И╖$..И╦...
+  004110A0: E9 93 26 00 00 E9 52 1C 00 00 E9 CB 26 00 00 E9  И.&..ИR...Ик&..И
+  004110B0: 5C 13 00 00 E9 77 06 00 00 E9 42 1A 00 00 E9 57  \...Иw...ИB...ИW
+  004110C0: 26 00 00 E9 28 26 00 00 E9 ED 15 00 00 E9 1E 06  &..И(&..ИМ...И..
+  004110D0: 00 00 E9 E9 0F 00 00 E9 2C 26 00 00 E9 F1 25 00  ..ИИ...И,&..ИЯ%.
+  004110E0: 00 E9 9A 19 00 00 E9 FF 25 00 00 E9 40 18 00 00  .И....ИЪ%..И@...
+  004110F0: E9 61 26 00 00 E9 D6 14 00 00 E9 D1 16 00 00 E9  Иa&..Иж...Ия...И
+  00411100: 8C 0A 00 00 E9 41 26 00 00 E9 92 14 00 00 E9 FD  ....ИA&..И....ИЩ
+  00411110: 15 00 00 E9 5C 26 00 00 E9 B9 03 00 00 E9 C0 03  ...И\&..И╧...Ию.
+  00411120: 00 00 E9 F9 14 00 00 E9 74 15 00 00 E9 FB 25 00  ..ИЫ...Иt...ИШ%.
+  00411130: 00 E9 2A 16 00 00 E9 19 24 00 00 E9 FE 25 00 00  .И*...И.$..ИЧ%..
+  00411140: E9 9B 04 00 00 E9 DA 17 00 00 E9 A1 03 00 00 E9  И....Из...И║...И
+  00411150: 84 25 00 00 E9 17 16 00 00 E9 EA 23 00 00 E9 E1  .%..И....ИЙ#..ИА
+  00411160: 25 00 00 E9 BE 25 00 00 E9 E1 23 00 00 E9 DE 1B  %..И╬%..ИА#..Ич.
+  00411170: 00 00 E9 F5 23 00 00 E9 9A 14 00 00 E9 B1 25 00  ..ИУ#..И....И╠%.
+  00411180: 00 E9 AA 02 00 00 E9 15 1A 00 00 E9 C0 25 00 00  .И╙...И....Ию%..
+  00411190: E9 95 17 00 00 E9 C4 18 00 00 E9 D1 18 00 00 E9  И....Ид...Ия...И
+  004111A0: 3A 25 00 00 E9 D7 25 00 00 E9 B8 23 00 00 E9 B5  :%..Ив%..И╦#..И╣
+  004111B0: 25 00 00 E9 98 15 00 00 E9 51 25 00 00 E9 6E 0A  %..И....ИQ%..Иn.
+  004111C0: 00 00 E9 39 10 00 00 E9 9E 18 00 00 E9 89 23 00  ..И9...И....И.#.
+  004111D0: 00 E9 98 25 00 00 E9 27 1B 00 00 E9 20 14 00 00  .И.%..И'...И ...
+  004111E0: E9 8D 23 00 00 E9 76 02 00 00 E9 01 09 00 00 E9  И.#..Иv...И....И
+  004111F0: DC 01 00 00 CC CC CC CC CC CC CC CC CC CC CC CC  э...лллллллллллл
+  00411200: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411210: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411220: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411230: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411240: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411250: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411260: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411270: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411280: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411290: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411300: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411310: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411320: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411330: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411340: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411350: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411360: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411370: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411380: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411390: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004113A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004113B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004113C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004113D0: 55 8B EC 81 EC C0 00 00 00 53 56 57 8D BD 40 FF  U.Л.Лю...SVW.╫@Ъ
+  004113E0: FF FF B9 30 00 00 00 B8 CC CC CC CC F3 AB 8B F4  ЪЪ╧0...╦ллллС╚.Т
+  004113F0: 68 3C 68 41 00 8B FC FF 15 D8 92 41 00 3B FC E8  h<hA..ЭЪ.ь.A.;ЭХ
+  00411400: 46 FD FF FF 83 C0 20 50 FF 15 DC 92 41 00 83 C4  FЩЪЪ.ю PЪ.э.A..д
+  00411410: 08 3B F4 E8 32 FD FF FF 5F 5E 5B 81 C4 C0 00 00  .;ТХ2ЩЪЪ_^[.дю..
+  00411420: 00 3B EC E8 22 FD FF FF 8B E5 5D C3 CC CC CC CC  .;ЛХ"ЩЪЪ.Е]цлллл
+  00411430: 55 8B EC 81 EC C0 00 00 00 53 56 57 8D BD 40 FF  U.Л.Лю...SVW.╫@Ъ
+  00411440: FF FF B9 30 00 00 00 B8 CC CC CC CC F3 AB 8B F4  ЪЪ╧0...╦ллллС╚.Т
+  00411450: 68 20 6B 41 00 8B FC FF 15 D8 92 41 00 3B FC E8  h kA..ЭЪ.ь.A.;ЭХ
+  00411460: E6 FC FF FF 83 C0 20 50 FF 15 DC 92 41 00 83 C4  ФЭЪЪ.ю PЪ.э.A..д
+  00411470: 08 3B F4 E8 D2 FC FF FF 68 EF 11 41 00 E8 E7 FB  .;ТХрЭЪЪhО.A.ХГШ
+  00411480: FF FF 83 C4 04 8B F4 FF 15 E4 92 41 00 3B F4 E8  ЪЪ.д..ТЪ.Д.A.;ТХ
+  00411490: B6 FC FF FF 5F 5E 5B 81 C4 C0 00 00 00 3B EC E8  ╤ЭЪЪ_^[.дю...;ЛХ
+  004114A0: A6 FC FF FF 8B E5 5D C3 CC CC CC CC CC CC CC CC  ╕ЭЪЪ.Е]цлллллллл
+  004114B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004114C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004114D0: CC CC CC CC CC CC FF 25 E4 92 41 00 FF 25 DC 92  ллллллЪ%Д.A.Ъ%э.
+  004114E0: 41 00 FF 25 D8 92 41 00 CC CC CC CC CC CC CC CC  A.Ъ%ь.A.лллллллл
+  004114F0: 75 01 C3 55 8B EC 83 EC 00 50 52 53 56 57 8B 45  u.цU.Л.Л.PRSVW.E
+  00411500: 04 6A 00 50 E8 B4 FC FF FF 83 C4 08 5F 5E 5B 5A  .j.PХ╢ЭЪЪ.д._^[Z
+  00411510: 58 8B E5 5D C3 CC CC CC CC CC CC CC CC CC CC CC  X.Е]цллллллллллл
+  00411520: 8B FF 55 8B EC 51 53 56 57 33 FF 8B F2 8B D9 89  .ЪU.ЛQSVW3Ъ.Р.ы.
+  00411530: 7D FC 39 3E 7E 48 EB 08 8D A4 24 00 00 00 00 90  }Э9>~HК..╓$.....
+  00411540: 8B 46 04 8B 0C 38 81 7C 19 FC CC CC CC CC 75 0F  .F...8.|.Эллллu.
+  00411550: 8B 54 38 04 03 D1 81 3C 1A CC CC CC CC 74 11 8B  .T8..я.<.ллллt..
+  00411560: 4C 38 08 8B 55 04 51 52 E8 65 FB FF FF 83 C4 08  L8..U.QRХeШЪЪ.д.
+  00411570: 8B 45 FC 40 83 C7 0C 89 45 FC 3B 06 7C C2 5F 5E  .EЭ@.г..EЭ;.|б_^
+  00411580: 5B 8B E5 5D C3 CC CC CC CC CC CC CC CC CC CC CC  [.Е]цллллллллллл
+  00411590: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004115A0: 8B FF 55 8B EC 56 8B F1 85 F6 74 21 85 D2 74 1D  .ЪU.ЛV.Я.Жt!.рt.
+  004115B0: 53 8B 5D 08 85 DB 74 14 57 B0 CC 8B FE 8B CA F3  S.]..шt.W╟л.Ч.йС
+  004115C0: AA 8B 03 89 46 04 89 56 0C 89 33 5F 5B 5E 5D C2  ╙...F..V..3_[^]б
+  004115D0: 04 00 CC CC CC CC CC CC CC CC CC CC CC CC CC CC  ..лллллллллллллл
+  004115E0: 8B FF 55 8B EC 51 53 56 57 8B F2 33 FF 8B D9 3B  .ЪU.ЛQSVW.Р3Ъ.ы;
+  004115F0: F7 74 52 89 7D FC 39 3E 7E 4B 8D 9B 00 00 00 00  ВtR.}Э9>~K......
+  00411600: 8B 46 04 8B 0C 38 BA CC CC CC CC 39 54 19 FC 75  .F...8╨лллл9T.Эu
+  00411610: 0B 8B 44 38 04 03 C1 39 14 18 74 19 8B 4E 04 8B  ..D8..а9..t..N..
+  00411620: 54 0F 08 8B 45 04 52 50 E8 A5 FA FF FF 83 C4 08  T...E.RPХ╔ЗЪЪ.д.
+  00411630: BA CC CC CC CC 8B 45 FC 40 83 C7 0C 89 45 FC 3B  ╨лллл.EЭ@.г..EЭ;
+  00411640: 06 7C BD EB 05 BA CC CC CC CC 8B 75 08 33 FF 8B  .|╫К.╨лллл.u.3Ъ.
+  00411650: C6 85 F6 74 56 8B 40 04 47 85 C0 75 F8 85 F6 74  ф.ЖtV.@.G.юuЬ.Жt
+  00411660: 4A 39 16 75 0F 39 56 14 75 0A 39 56 18 75 05 39  J9.u.9V.u.9V.u.9
+  00411670: 56 1C 74 13 8B 4D 04 57 56 51 E8 43 FB FF FF 83  V.t..M.WVQХCШЪЪ.
+  00411680: C4 0C BA CC CC CC CC 8B 46 0C 39 54 30 FC 74 13  д.╨лллл.F.9T0Эt.
+  00411690: 8B 4D 04 57 56 51 E8 27 FB FF FF 83 C4 0C BA CC  .M.WVQХ'ШЪЪ.д.╨л
+  004116A0: CC CC CC 8B 76 04 4F 85 F6 75 B6 5F 5E 5B 8B E5  ллл.v.O.Жu╤_^[.Е
+  004116B0: 5D C2 04 00 CC CC CC CC CC CC CC CC CC CC CC CC  ]б..лллллллллллл
+  004116C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004116D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004116E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004116F0: 80 3D 3C 81 41 00 00 75 1F 6A 00 6A 01 6A 00 6A  .=<.A..u.j.j.j.j
+  00411700: 00 6A 00 C6 05 3C 81 41 00 01 E8 68 FA FF FF 50  .j.ф.<.A..ХhЗЪЪP
+  00411710: E8 E0 F9 FF FF 83 C4 18 C3 CC CC CC CC CC CC CC  ХЮЫЪЪ.д.цллллллл
+  00411720: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411730: 6A 01 6A 01 6A 00 6A 00 6A 00 E8 38 FA FF FF 83  j.j.j.j.j.Х8ЗЪЪ.
+  00411740: C4 14 C3 CC CC CC CC CC CC CC CC CC CC CC CC CC  д.цллллллллллллл
+  00411750: 8B FF 55 8B EC E8 46 04 00 00 A3 4C 81 41 00 6A  .ЪU.ЛХF...ёL.A.j
+  00411760: 01 FF 15 C0 92 41 00 83 C4 04 6A FF FF 15 20 92  .Ъ.ю.A..д.jЪЪ. .
+  00411770: 41 00 A3 68 85 41 00 A1 68 85 41 00 A3 78 85 41  A.ёh.A.║h.A.ёx.A
+  00411780: 00 8B 0D C4 92 41 00 8B 15 7C 81 41 00 89 11 A1  ...д.A...|.A...║
+  00411790: C8 92 41 00 8B 0D 78 81 41 00 89 08 E8 B3 F9 FF  х.A...x.A...ХЁЫЪ
+  004117A0: FF E8 8B F9 FF FF 83 3D 1C 80 41 00 00 75 0E 68  ЪХ.ЫЪЪ.=..A..u.h
+  004117B0: B3 11 41 00 FF 15 CC 92 41 00 83 C4 04 E8 43 F8  Ё.A.Ъ.л.A..д.ХCЬ
+  004117C0: FF FF 83 3D 18 80 41 00 FF 75 0B 6A FF FF 15 D0  ЪЪ.=..A.Ъu.jЪЪ.п
+  004117D0: 92 41 00 83 C4 04 33 C0 5D C3 CC CC CC CC CC CC  .A..д.3ю]цлллллл
+  004117E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004117F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411800: 8B FF 55 8B EC 68 1E 10 41 00 E8 5A F8 FF FF 83  .ЪU.Лh..A.ХZЬЪЪ.
+  00411810: C4 04 A1 84 81 41 00 A3 54 81 41 00 68 54 81 41  д.║..A.ёT.A.hT.A
+  00411820: 00 8B 0D 80 81 41 00 51 68 44 81 41 00 68 48 81  .....A.QhD.A.hH.
+  00411830: 41 00 68 40 81 41 00 FF 15 B8 92 41 00 83 C4 14  A.h@.A.Ъ.╦.A..д.
+  00411840: A3 50 81 41 00 83 3D 50 81 41 00 00 7D 0A 6A 08  ёP.A..=P.A..}.j.
+  00411850: E8 3B F9 FF FF 83 C4 04 5D C3 CC CC CC CC CC CC  Х;ЫЪЪ.д.]цлллллл
+  00411860: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411870: 8B FF 55 8B EC E8 D6 F7 FF FF E8 11 00 00 00 5D  .ЪU.ЛХжВЪЪХ....]
+  00411880: C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  цллллллллллллллл
+  00411890: 8B FF 55 8B EC 6A FE 68 A0 7C 41 00 68 7D 10 41  .ЪU.ЛjЧh═|A.h}.A
+  004118A0: 00 64 A1 00 00 00 00 50 83 C4 E4 53 56 57 A1 2C  .d║....P.дДSVW║,
+  004118B0: 80 41 00 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00  .A.1EЬ3еP.EПdё..
+  004118C0: 00 00 89 65 E8 83 3D 7C 85 41 00 00 75 0E 6A 00  ...eХ.=|.A..u.j.
+  004118D0: 6A 00 6A 01 6A 00 FF 15 10 92 41 00 C7 45 FC 00  j.j.j.Ъ...A.гEЭ.
+  004118E0: 00 00 00 C7 45 DC 00 00 00 00 E8 10 F8 FF FF 8B  ...гEэ....Х.ЬЪЪ.
+  004118F0: 40 04 89 45 E0 C7 45 E4 00 00 00 00 6A 00 8B 4D  @..EЮгEД....j..M
+  00411900: E0 51 68 64 85 41 00 FF 15 14 92 41 00 89 45 DC  ЮQhd.A.Ъ...A..Eэ
+  00411910: 83 7D DC 00 74 1E 8B 55 DC 3B 55 E0 75 09 C7 45  .}э.t..Uэ;UЮu.гE
+  00411920: E4 01 00 00 00 EB 0D 68 E8 03 00 00 FF 15 18 92  Д....К.hХ...Ъ...
+  00411930: 41 00 EB C8 83 3D 54 85 41 00 01 75 0C 6A 1F E8  A.Кх.=T.A..u.j.Х
+  00411940: 4C F8 FF FF 83 C4 04 EB 4B 83 3D 54 85 41 00 00  LЬЪЪ.д.КK.=T.A..
+  00411950: 75 38 C7 05 54 85 41 00 01 00 00 00 68 1C 67 41  u8г.T.A.....h.gA
+  00411960: 00 68 10 64 41 00 E8 6B F8 FF FF 83 C4 08 85 C0  .h.dA.ХkЬЪЪ.д..ю
+  00411970: 74 16 C7 45 D4 FF 00 00 00 C7 45 FC FE FF FF FF  t.гEтЪ...гEЭЧЪЪЪ
+  00411980: 8B 45 D4 E9 53 01 00 00 EB 0A C7 05 5C 81 41 00  .EтИS...К.г.\.A.
+  00411990: 01 00 00 00 83 3D 54 85 41 00 01 75 1C 68 0C 63  .....=T.A..u.h.c
+  004119A0: 41 00 68 00 60 41 00 E8 F9 F6 FF FF 83 C4 08 C7  A.h.`A.ХЫЖЪЪ.д.г
+  004119B0: 05 54 85 41 00 02 00 00 00 83 3D 54 85 41 00 02  .T.A......=T.A..
+  004119C0: 74 22 68 E0 68 41 00 6A 00 68 DC 01 00 00 68 68  t"hЮhA.j.hэ...hh
+  004119D0: 68 41 00 6A 02 FF 15 9C 92 41 00 83 C4 14 83 F8  hA.j.Ъ...A..д..Ь
+  004119E0: 01 75 01 CC 83 7D E4 00 75 0D 6A 00 68 64 85 41  .u.л.}Д.u.j.hd.A
+  004119F0: 00 FF 15 1C 92 41 00 83 3D 80 85 41 00 00 74 1D  .Ъ...A..=..A..t.
+  00411A00: 68 80 85 41 00 E8 7C F7 FF FF 83 C4 04 85 C0 74  h..A.Х|ВЪЪ.д..юt
+  00411A10: 0C 6A 00 6A 02 6A 00 FF 15 80 85 41 00 6A 01 FF  .j.j.j.Ъ...A.j.Ъ
+  00411A20: 15 A0 92 41 00 83 C4 04 8B 0D A4 92 41 00 8B 15  .═.A..д...╓.A...
+  00411A30: 44 81 41 00 89 11 A1 44 81 41 00 50 8B 0D 48 81  D.A...║D.A.P..H.
+  00411A40: 41 00 51 8B 15 40 81 41 00 52 E8 BB F5 FF FF 83  A.Q..@.A.RХ╩УЪЪ.
+  00411A50: C4 0C A3 58 81 41 00 83 3D 4C 81 41 00 00 75 0C  д.ёX.A..=L.A..u.
+  00411A60: A1 58 81 41 00 50 FF 15 A8 92 41 00 83 3D 5C 81  ║X.A.PЪ.╗.A..=\.
+  00411A70: 41 00 00 75 06 FF 15 AC 92 41 00 C7 45 FC FE FF  A..u.Ъ.╛.A.гEЭЧЪ
+  00411A80: FF FF EB 52 8B 4D EC 8B 11 8B 02 89 45 D8 8B 4D  ЪЪКR.MЛ.....Eь.M
+  00411A90: EC 51 8B 55 D8 52 E8 FA F6 FF FF 83 C4 08 C3 8B  ЛQ.UьRХЗЖЪЪ.д.ц.
+  00411AA0: 65 E8 8B 45 D8 A3 58 81 41 00 83 3D 4C 81 41 00  eХ.EьёX.A..=L.A.
+  00411AB0: 00 75 0D 8B 0D 58 81 41 00 51 FF 15 B4 92 41 00  .u...X.A.QЪ.╢.A.
+  00411AC0: 83 3D 5C 81 41 00 00 75 06 FF 15 AC 92 41 00 C7  .=\.A..u.Ъ.╛.A.г
+  00411AD0: 45 FC FE FF FF FF A1 58 81 41 00 8B 4D F0 64 89  EЭЧЪЪЪ║X.A..MПd.
+  00411AE0: 0D 00 00 00 00 59 5F 5E 5B 8B E5 5D C3 CC CC CC  .....Y_^[.Е]цллл
+  00411AF0: 55 8B EC 81 EC C0 00 00 00 53 56 57 8D BD 40 FF  U.Л.Лю...SVW.╫@Ъ
+  00411B00: FF FF B9 30 00 00 00 B8 CC CC CC CC F3 AB 8B F4  ЪЪ╧0...╦ллллС╚.Т
+  00411B10: 68 54 68 41 00 8B FC FF 15 D8 92 41 00 3B FC E8  hThA..ЭЪ.ь.A.;ЭХ
+  00411B20: 26 F6 FF FF 83 C0 20 50 FF 15 DC 92 41 00 83 C4  &ЖЪЪ.ю PЪ.э.A..д
+  00411B30: 08 3B F4 E8 12 F6 FF FF 33 C0 5F 5E 5B 81 C4 C0  .;ТХ.ЖЪЪ3ю_^[.дю
+  00411B40: 00 00 00 3B EC E8 00 F6 FF FF 8B E5 5D C3 CC CC  ...;ЛХ.ЖЪЪ.Е]цлл
+  00411B50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B90: 8B FF 55 8B EC 64 A1 18 00 00 00 5D C3 CC CC CC  .ЪU.Лd║....]цллл
+  00411BA0: 8B FF 55 8B EC 83 EC 08 C7 45 FC 00 00 40 00 8B  .ЪU.Л.Л.гEЭ..@..
+  00411BB0: 45 FC 0F B7 08 81 F9 4D 5A 00 00 74 04 33 C0 EB  EЭ.╥..ЫMZ..t.3юК
+  00411BC0: 49 8B 55 FC 8B 45 FC 03 42 3C 89 45 F8 8B 4D F8  I.UЭ.EЭ.B<.EЬ.MЬ
+  00411BD0: 81 39 50 45 00 00 74 04 33 C0 EB 2E 8B 55 F8 0F  .9PE..t.3юК..UЬ.
+  00411BE0: B7 42 18 3D 0B 01 00 00 74 04 33 C0 EB 1C 8B 4D  ╥B.=....t.3юК..M
+  00411BF0: F8 83 79 74 0E 77 04 33 C0 EB 0F 8B 55 F8 33 C0  Ь.yt.w.3юК..UЬ3ю
+  00411C00: 83 BA E8 00 00 00 00 0F 95 C0 8B E5 5D C3 CC CC  .╨Х......ю.Е]цлл
+  00411C10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411C20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411C30: 8B FF 55 8B EC 8B 45 0C 83 F8 04 77 24 8B 0C 85  .ЪU.Л.E..Ь.w$...
+  00411C40: 00 80 41 00 8B 14 85 64 6C 41 00 83 F9 FF 74 0F  ..A....dlA..ЫЪt.
+  00411C50: 52 50 8B 45 08 51 50 E8 44 00 00 00 83 C4 10 5D  RP.E.QPХD....д.]
+  00411C60: C3 BA 40 69 41 00 52 B8 05 00 00 00 50 8B 45 08  ц╨@iA.R╦....P.E.
+  00411C70: B9 01 00 00 00 51 50 E8 24 00 00 00 83 C4 10 5D  ╧....QPХ$....д.]
+  00411C80: C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  цллллллллллллллл
+  00411C90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411CA0: 8B FF 55 8B EC 81 EC 40 0E 00 00 A1 2C 80 41 00  .ЪU.Л.Л@...║,.A.
+  00411CB0: 33 C5 89 45 FC 8B 45 10 53 8B 5D 08 56 57 8B 7D  3е.EЭ.E.S.].VW.}
+  00411CC0: 14 53 89 85 C8 F1 FF FF 89 BD C0 F1 FF FF C7 85  .S..хЯЪЪ.╫юЯЪЪг.
+  00411CD0: C4 F1 FF FF 00 00 00 00 E8 50 F3 FF FF 83 C4 04  дЯЪЪ....ХPСЪЪ.д.
+  00411CE0: 89 85 D0 F1 FF FF 85 C0 75 0F 53 E8 EB F4 FF FF  ..пЯЪЪ.юu.SХКТЪЪ
+  00411CF0: 83 C4 04 89 85 C4 F1 FF FF 8B 35 04 92 41 00 6A  .д...дЯЪЪ.5..A.j
+  00411D00: 00 6A 00 6A FF 57 6A 00 68 E9 FD 00 00 FF D6 3D  .j.jЪWj.hИЩ..Ъж=
+  00411D10: 00 02 00 00 73 26 50 8D 8D D4 F1 FF FF 51 6A FF  ....s&P..тЯЪЪQjЪ
+  00411D20: 57 6A 00 68 E9 FD 00 00 FF D6 85 C0 74 0E 8D 95  Wj.hИЩ..Ъж.юt...
+  00411D30: D4 F1 FF FF 89 95 CC F1 FF FF EB 0A C7 85 CC F1  тЯЪЪ..лЯЪЪК.г.лЯ
+  00411D40: FF FF C8 6D 41 00 68 02 10 00 00 E8 F0 01 00 00  ЪЪхmA.h....ХП...
+  00411D50: 8B BD C8 F1 FF FF 83 C4 04 85 C0 74 25 8B 85 CC  .╫хЯЪЪ.д..юt%..л
+  00411D60: F1 FF FF 8B 0C BD 7C 6C 41 00 50 53 51 57 E8 7D  ЯЪЪ..╫|lA.PSQWХ}
+  00411D70: 02 00 00 83 C4 10 85 C0 0F 85 22 01 00 00 32 C0  ....д..ю.."...2ю
+  00411D80: EB 02 B0 01 83 BD C4 F1 FF FF 00 8B B5 D0 F1 FF  К.╟..╫дЯЪЪ..╣пЯЪ
+  00411D90: FF 75 08 85 F6 0F 84 04 01 00 00 84 C0 74 0E FF  Ъu..Ж.......юt.Ъ
+  00411DA0: 15 08 92 41 00 85 C0 0F 85 F2 00 00 00 68 04 01  ...A..ю..Р...h..
+  00411DB0: 00 00 8D 95 F4 FD FF FF 52 8D 85 D0 F1 FF FF 50  ....ТЩЪЪR..пЯЪЪP
+  00411DC0: 68 04 01 00 00 8D 8D EC FB FF FF 51 83 C3 FB 53  h......ЛШЪЪQ.цШS
+  00411DD0: E8 98 F3 FF FF 83 C4 18 85 F6 74 2D 8B 95 CC F1  Х.СЪЪ.д..Жt-..лЯ
+  00411DE0: FF FF 8B 8D D0 F1 FF FF 52 57 68 78 6D 41 00 8D  ЪЪ..пЯЪЪRWhxmA..
+  00411DF0: 85 F4 FD FF FF 50 8B 45 0C 51 8D 95 EC FB FF FF  .ТЩЪЪP.E.Q..ЛШЪЪ
+  00411E00: 52 50 FF D6 E9 8E 00 00 00 8B 3D 0C 92 41 00 6A  RPЪжИ.....=..A.j
+  00411E10: 00 6A 00 68 0A 03 00 00 8D 8D D4 F5 FF FF 51 6A  .j.h......тУЪЪQj
+  00411E20: FF 8D 95 EC FB FF FF 52 6A 00 68 E9 FD 00 00 BB  Ъ..ЛШЪЪRj.hИЩ..╩
+  00411E30: 60 6D 41 00 FF D7 85 C0 74 06 8D 9D D4 F5 FF FF  `mA.Ъв.юt...тУЪЪ
+  00411E40: 6A 00 6A 00 68 0A 03 00 00 8D 85 E0 F8 FF FF 50  j.j.h......ЮЬЪЪP
+  00411E50: 6A FF 8D 8D F4 FD FF FF 51 6A 00 68 E9 FD 00 00  jЪ..ТЩЪЪQj.hИЩ..
+  00411E60: BE 48 6D 41 00 FF D7 85 C0 74 06 8D B5 E0 F8 FF  ╬HmA.Ъв.юt..╣ЮЬЪ
+  00411E70: FF 8B 95 C0 F1 FF FF 8B 85 C8 F1 FF FF 8B 8D D0  Ъ..юЯЪЪ..хЯЪЪ..п
+  00411E80: F1 FF FF 52 8B 55 0C 50 68 20 6D 41 00 56 51 53  ЯЪЪR.U.Ph mA.VQS
+  00411E90: 52 FF 95 C4 F1 FF FF 83 C4 1C 83 F8 01 75 01 CC  RЪ.дЯЪЪ.д..Ь.u.л
+  00411EA0: 8B 4D FC 5F 5E 33 CD 5B E8 67 F1 FF FF 8B E5 5D  .MЭ_^3м[ХgЯЪЪ.Е]
+  00411EB0: C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  цллллллллллллллл
+  00411EC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411ED0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411EE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411EF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F40: 8B FF 55 8B EC 6A FE 68 C0 7C 41 00 68 7D 10 41  .ЪU.ЛjЧhю|A.h}.A
+  00411F50: 00 64 A1 00 00 00 00 50 83 EC 24 53 56 57 A1 2C  .d║....P.Л$SVW║,
+  00411F60: 80 41 00 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00  .A.1EЬ3еP.EПdё..
+  00411F70: 00 00 89 65 E8 33 C0 88 45 E7 C7 45 CC 01 10 00  ...eХ3ю.EГгEл...
+  00411F80: 00 8B 4D 08 89 4D D0 8D 55 E7 89 55 D4 89 45 FC  ..M..Mп.UГ.Uт.EЭ
+  00411F90: 8D 4D CC 51 6A 06 50 68 88 13 6D 40 FF 15 00 92  .MлQj.Ph..m@Ъ...
+  00411FA0: 41 00 EB 09 B8 01 00 00 00 C3 8B 65 E8 C7 45 FC  A.К.╦....ц.eХгEЭ
+  00411FB0: FE FF FF FF 0F B6 45 E7 8B 4D F0 64 89 0D 00 00  ЧЪЪЪ.╤EГ.MПd....
+  00411FC0: 00 00 59 5F 5E 5B 8B E5 5D C3 CC CC CC CC CC CC  ..Y_^[.Е]цлллллл
+  00411FD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411FE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411FF0: 8B FF 55 8B EC 6A FE 68 E0 7C 41 00 68 7D 10 41  .ЪU.ЛjЧhЮ|A.h}.A
+  00412000: 00 64 A1 00 00 00 00 50 83 EC 24 53 56 57 A1 2C  .d║....P.Л$SVW║,
+  00412010: 80 41 00 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00  .A.1EЬ3еP.EПdё..
+  00412020: 00 00 89 65 E8 33 C0 88 45 E7 C7 45 CC 02 10 00  ...eХ3ю.EГгEл...
+  00412030: 00 8B 4D 08 89 4D D0 8B 55 0C 89 55 D4 8B 4D 10  ..M..Mп.U..Uт.M.
+  00412040: 89 4D D8 8D 55 E7 89 55 DC 8B 4D 14 89 4D E0 89  .Mь.UГ.Uэ.M..MЮ.
+  00412050: 45 FC 8D 55 CC 52 6A 06 50 68 88 13 6D 40 FF 15  EЭ.UлRj.Ph..m@Ъ.
+  00412060: 00 92 41 00 EB 09 B8 01 00 00 00 C3 8B 65 E8 C7  ..A.К.╦....ц.eХг
+  00412070: 45 FC FE FF FF FF 0F B6 45 E7 8B 4D F0 64 89 0D  EЭЧЪЪЪ.╤EГ.MПd..
+  00412080: 00 00 00 00 59 5F 5E 5B 8B E5 5D C3 CC CC CC CC  ....Y_^[.Е]цлллл
+  00412090: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004120A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004120B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004120C0: 8B FF 55 8B EC 81 EC 08 04 00 00 A1 2C 80 41 00  .ЪU.Л.Л....║,.A.
+  004120D0: 33 C5 89 45 FC 83 3D 08 80 41 00 FF 8B 45 08 89  3е.EЭ.=..A.Ъ.E..
+  004120E0: 85 F8 FB FF FF 8B 45 0C 0F 84 C0 00 00 00 80 38  .ЬШЪЪ.E...ю....8
+  004120F0: 00 53 56 0F 84 96 00 00 00 8B C8 8D 71 01 8B FF  .SV.......х.q..Ъ
+  00412100: 8A 11 41 84 D2 75 F9 2B CE 83 C1 2D 81 F9 00 04  ..A.рuЫ+н.а-.Ы..
+  00412110: 00 00 77 7B 8D 9D FC FB FF FF 33 C9 8D 64 24 00  ..w{..ЭШЪЪ3и.d$.
+  00412120: 8A 91 94 6C 41 00 88 94 0D FC FB FF FF 41 84 D2  ...lA....ЭШЪЪA.р
+  00412130: 75 EE 8B D0 8A 08 40 84 C9 75 F9 57 8D BD FC FB  uН.п..@.иuЫW.╫ЭШ
+  00412140: FF FF 2B C2 4F 8A 4F 01 47 84 C9 75 F8 8B C8 C1  ЪЪ+бO.O.G.иuЬ.ха
+  00412150: E9 02 8B F2 F3 A5 8B C8 83 E1 03 B8 B0 6C 41 00  И..РС╔.х.А.╦╟lA.
+  00412160: F3 A4 8B C8 8A 10 40 84 D2 75 F9 8D BD FC FB FF  С╓.х..@.рuЫ.╫ЭШЪ
+  00412170: FF 2B C1 8B F1 4F 8A 4F 01 47 84 C9 75 F8 8B C8  Ъ+а.ЯO.O.G.иuЬ.х
+  00412180: C1 E9 02 F3 A5 8B C8 83 E1 03 F3 A4 5F EB 05 BB  аИ.С╔.х.А.С╓_К.╩
+  00412190: 4C 6E 41 00 A1 08 80 41 00 8B 8D F8 FB FF FF 53  LnA.║..A...ЬШЪЪS
+  004121A0: 6A 02 50 51 E8 F7 FA FF FF 83 C4 10 5E 5B 8B 4D  j.PQХВЗЪЪ.д.^[.M
+  004121B0: FC 33 CD E8 5C EE FF FF 8B E5 5D C3 CC CC CC CC  Э3мХ\НЪЪ.Е]цлллл
+  004121C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004121D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004121E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004121F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412200: 8B FF 55 8B EC 81 EC 44 01 00 00 A1 2C 80 41 00  .ЪU.Л.ЛD...║,.A.
+  00412210: 33 C5 89 45 FC 53 8B 1D 10 80 41 00 56 8B 75 0C  3е.EЭS....A.V.u.
+  00412220: 57 8B 7D 08 89 BD BC FE FF FF 83 FB FF 0F 84 EF  W.}..╫╪ЧЪЪ.ШЪ..О
+  00412230: 00 00 00 68 C8 6F 41 00 FF 15 F4 91 41 00 85 C0  ...hхoA.Ъ.Т.A..ю
+  00412240: 0F 84 CB 00 00 00 68 BC 6F 41 00 50 FF 15 F8 91  ..к...h╪oA.PЪ.Ь.
+  00412250: 41 00 A3 68 81 41 00 85 F6 0F 84 B2 00 00 00 85  A.ёh.A..Ж..╡....
+  00412260: C0 0F 84 AA 00 00 00 8B 4D 10 8B 56 0C 68 B0 6F  ю..╙....M..V.h╟o
+  00412270: 41 00 51 68 7C 6F 41 00 83 EA 24 52 68 70 6F 41  A.Qh|oA..Й$RhpoA
+  00412280: 00 8D 7E 20 57 68 60 6F 41 00 68 08 6F 41 00 8D  ..~ Wh`oA.h.oA..
+  00412290: 8D C0 FE FF FF 68 EC 6E 41 00 51 FF D0 8B 56 0C  .юЧЪЪhЛnA.QЪп.V.
+  004122A0: 83 EA 24 52 57 8D 45 B4 50 8D 4D E8 51 E8 CE 00  .Й$RW.E╢P.MХQХн.
+  004122B0: 00 00 83 C4 38 68 E8 6E 41 00 8D 55 B4 52 68 E4  ...д8hХnA..U╢RhД
+  004122C0: 6E 41 00 8D 45 E8 50 68 D8 6E 41 00 8D 8D C0 FE  nA..EХPhьnA...юЧ
+  004122D0: FF FF 51 FF 15 FC 91 41 00 8D 94 05 C0 FE FF FF  ЪЪQЪ.Э.A....юЧЪЪ
+  004122E0: 52 FF 15 68 81 41 00 8B 8D BC FE FF FF 8D 85 C0  RЪ.h.A...╪ЧЪЪ..ю
+  004122F0: FE FF FF 50 6A 04 53 51 E8 A3 F9 FF FF 83 C4 28  ЧЪЪPj.SQХёЫЪЪ.д(
+  00412300: 5F 5E 5B 8B 4D FC 33 CD E8 07 ED FF FF 8B E5 5D  _^[.MЭ3мХ.МЪЪ.Е]
+  00412310: C3 68 80 6E 41 00 6A 04 53 57 E8 81 F9 FF FF 83  цh.nA.j.SWХ.ЫЪЪ.
+  00412320: C4 10 8B 4D FC 5F 5E 33 CD 5B E8 E5 EC FF FF 8B  д..MЭ_^3м[ХЕЛЪЪ.
+  00412330: E5 5D C3 CC CC CC CC CC CC CC CC CC CC CC CC CC  Е]цллллллллллллл
+  00412340: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412350: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412360: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412370: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412380: 8B FF 55 8B EC 83 EC 08 8B 45 0C 53 56 8B 75 08  .ЪU.Л.Л..E.SV.u.
+  00412390: 89 45 FC 8B 45 10 57 33 FF 2B C6 89 45 F8 8B FF  .EЭ.E.W3Ъ+ф.EЬ.Ъ
+  004123A0: 8B 4D 14 83 F9 10 72 05 B9 10 00 00 00 3B F9 73  .M..Ы.r.╧....;Ыs
+  004123B0: 26 8A 1C 30 8B 55 FC 0F B6 CB 51 68 E4 6F 41 00  &..0.UЭ.╤кQhДoA.
+  004123C0: 52 FF 15 68 81 41 00 83 45 FC 03 8B 45 F8 83 C4  RЪ.h.A..EЭ..EЬ.д
+  004123D0: 0C 88 1E 47 46 EB C9 8B 4D 0C 8B 45 08 8D 14 79  ...GFКи.M..E...y
+  004123E0: C6 04 07 00 C6 04 17 00 5F 5E 5B 8B E5 5D C3 CC  ф...ф..._^[.Е]цл
+  004123F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412400: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412410: 8B FF 55 8B EC 81 EC 04 04 00 00 A1 2C 80 41 00  .ЪU.Л.Л....║,.A.
+  00412420: 33 C5 89 45 FC 83 3D 0C 80 41 00 FF 8B 45 08 0F  3е.EЭ.=..A.Ъ.E..
+  00412430: 84 B6 00 00 00 53 56 85 C0 0F 84 90 00 00 00 8B  .╤...SV.ю.......
+  00412440: C8 8D 71 01 8A 11 41 84 D2 75 F9 2B CE 83 C1 3A  х.q...A.рuЫ+н.а:
+  00412450: 81 F9 00 04 00 00 77 77 8D 9D FC FB FF FF 33 C9  .Ы....ww..ЭШЪЪ3и
+  00412460: 8A 91 C4 6C 41 00 88 94 0D FC FB FF FF 41 84 D2  ..дlA....ЭШЪЪA.р
+  00412470: 75 EE 8B D0 8A 08 40 84 C9 75 F9 57 8D BD FC FB  uН.п..@.иuЫW.╫ЭШ
+  00412480: FF FF 2B C2 4F 8A 4F 01 47 84 C9 75 F8 8B C8 C1  ЪЪ+бO.O.G.иuЬ.ха
+  00412490: E9 02 8B F2 F3 A5 8B C8 83 E1 03 B8 D4 6C 41 00  И..РС╔.х.А.╦тlA.
+  004124A0: F3 A4 8B C8 8A 10 40 84 D2 75 F9 8D BD FC FB FF  С╓.х..@.рuЫ.╫ЭШЪ
+  004124B0: FF 2B C1 8B F1 4F 8A 4F 01 47 84 C9 75 F8 8B C8  Ъ+а.ЯO.O.G.иuЬ.х
+  004124C0: C1 E9 02 F3 A5 8B C8 83 E1 03 F3 A4 5F EB 05 BB  аИ.С╔.х.А.С╓_К.╩
+  004124D0: EC 6F 41 00 A1 0C 80 41 00 53 6A 03 50 8B 45 04  ЛoA.║..A.Sj.P.E.
+  004124E0: 50 E8 BA F7 FF FF 83 C4 10 5E 5B 8B 4D FC 33 CD  PХ╨ВЪЪ.д.^[.MЭ3м
+  004124F0: E8 1F EB FF FF 8B E5 5D C3 CC CC CC CC CC CC CC  Х.КЪЪ.Е]цллллллл
+  00412500: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412510: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412520: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412530: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412540: B8 05 00 00 00 C3 CC CC CC CC CC CC CC CC CC CC  ╦....цлллллллллл
+  00412550: 8B FF 55 8B EC 8B 45 08 83 F8 04 77 09 8B 04 85  .ЪU.Л.E..Ь.w....
+  00412560: F8 70 41 00 5D C3 33 C0 5D C3 CC CC CC CC CC CC  ЬpA.]ц3ю]цлллллл
+  00412570: 8B FF 55 8B EC 8B 4D 08 83 F9 04 77 13 8B 55 0C  .ЪU.Л.M..Ы.w..U.
+  00412580: 8B 04 8D 00 80 41 00 89 14 8D 00 80 41 00 5D C3  .....A......A.]ц
+  00412590: 83 C8 FF 5D C3 CC CC CC CC CC CC CC CC CC CC CC  .хЪ]цллллллллллл
+  004125A0: 8B FF 55 8B EC 8B 4D 08 A1 6C 81 41 00 89 0D 6C  .ЪU.Л.M.║l.A...l
+  004125B0: 81 41 00 C7 05 70 81 41 00 00 00 00 00 5D C3 CC  .A.г.p.A.....]цл
+  004125C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004125D0: 8B FF 55 8B EC 8B 4D 08 A1 70 81 41 00 89 0D 70  .ЪU.Л.M.║p.A...p
+  004125E0: 81 41 00 C7 05 6C 81 41 00 00 00 00 00 5D C3 CC  .A.г.l.A.....]цл
+  004125F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412600: A1 6C 81 41 00 C3 CC CC CC CC CC CC CC CC CC CC  ║l.A.цлллллллллл
+  00412610: A1 70 81 41 00 C3 FF 25 D4 92 41 00 CC CC CC CC  ║p.A.цЪ%т.A.лллл
+  00412620: 8B FF 55 8B EC 8B 45 08 8B 08 81 39 63 73 6D E0  .ЪU.Л.E....9csmЮ
+  00412630: 75 4F 8B 55 08 8B 02 83 78 10 03 75 44 8B 4D 08  uO.U....x..uD.M.
+  00412640: 8B 11 81 7A 14 20 05 93 19 74 2A 8B 45 08 8B 08  ...z. ...t*.E...
+  00412650: 81 79 14 21 05 93 19 74 1C 8B 55 08 8B 02 81 78  .y.!...t..U....x
+  00412660: 14 22 05 93 19 74 0E 8B 4D 08 8B 11 81 7A 14 00  ."...t..M....z..
+  00412670: 40 99 01 75 0C E8 1C EA FF FF B8 01 00 00 00 EB  @..u.Х.ЙЪЪ╦....К
+  00412680: 02 33 C0 5D C2 04 00 CC CC CC CC CC CC CC CC CC  .3ю]б..ллллллллл
+  00412690: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004126A0: 8B FF 55 8B EC 68 22 11 41 00 FF 15 F0 91 41 00  .ЪU.Лh".A.Ъ.П.A.
+  004126B0: 33 C0 5D C3 CC CC CC CC CC CC FF 25 D0 92 41 00  3ю]цллллллЪ%п.A.
+  004126C0: 8B FF 55 8B EC 6A 00 6A 1F 68 D8 71 41 00 68 A0  .ЪU.Лj.j.hьqA.h═
+  004126D0: 71 41 00 68 28 71 41 00 68 00 00 03 00 68 00 00  qA.h(qA.h....h..
+  004126E0: 01 00 6A 00 E8 70 EA FF FF 83 C4 0C 50 E8 1C EA  ..j.ХpЙЪЪ.д.PХ.Й
+  004126F0: FF FF 83 C4 18 5D C3 CC CC CC CC CC CC CC CC CC  ЪЪ.д.]цллллллллл
+  00412700: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412710: 8B FF 55 8B EC 83 7D 08 00 75 02 EB 19 8B 45 1C  .ЪU.Л.}..u.К..E.
+  00412720: 50 8B 4D 18 51 8B 55 14 52 8B 45 10 50 8B 4D 0C  P.M.Q.U.R.E.P.M.
+  00412730: 51 E8 32 EA FF FF 5D C3 CC CC CC CC CC CC CC CC  QХ2ЙЪЪ]цлллллллл
+  00412740: CC CC FF 25 CC 92 41 00 CC CC CC CC CC CC CC CC  ллЪ%л.A.лллллллл
+  00412750: 8B FF 55 8B EC 33 C0 5D C3 CC CC CC CC CC CC CC  .ЪU.Л3ю]цллллллл
+  00412760: 8B FF 55 8B EC 33 C0 5D C3 CC CC CC CC CC CC CC  .ЪU.Л3ю]цллллллл
+  00412770: 8B FF 56 BE 88 76 41 00 8B C6 3D 8C 78 41 00 73  .ЪV╬.vA..ф=.xA.s
+  00412780: 13 8B 06 85 C0 74 02 FF D0 83 C6 04 81 FE 8C 78  ....юt.Ъп.ф..Ч.x
+  00412790: 41 00 72 ED 5E C3 CC CC CC CC CC CC CC CC CC CC  A.rМ^цлллллллллл
+  004127A0: 8B FF 56 BE 94 79 41 00 8B C6 3D 98 7B 41 00 73  .ЪV╬.yA..ф=.{A.s
+  004127B0: 13 8B 06 85 C0 74 02 FF D0 83 C6 04 81 FE 98 7B  ....юt.Ъп.ф..Ч.{
+  004127C0: 41 00 72 ED 5E C3 CC CC CC CC CC CC CC CC CC CC  A.rМ^цлллллллллл
+  004127D0: 8B FF 55 8B EC 6A FE 68 00 7D 41 00 68 7D 10 41  .ЪU.ЛjЧh.}A.h}.A
+  004127E0: 00 64 A1 00 00 00 00 50 83 C4 EC 53 56 57 A1 2C  .d║....P.дЛSVW║,
+  004127F0: 80 41 00 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00  .A.1EЬ3еP.EПdё..
+  00412800: 00 00 A1 78 85 41 00 50 FF 15 EC 91 41 00 89 45  ..║x.A.PЪ.Л.A..E
+  00412810: E4 83 7D E4 FF 75 12 8B 4D 08 51 FF 15 78 92 41  Д.}ДЪu..M.QЪ.x.A
+  00412820: 00 83 C4 04 E9 88 00 00 00 6A 08 E8 52 E8 FF FF  ..д.И....j.ХRХЪЪ
+  00412830: 83 C4 04 C7 45 FC 00 00 00 00 8B 15 78 85 41 00  .д.гEЭ......x.A.
+  00412840: 52 FF 15 EC 91 41 00 89 45 E4 A1 68 85 41 00 50  RЪ.Л.A..EД║h.A.P
+  00412850: FF 15 EC 91 41 00 89 45 DC 8D 4D DC 51 8D 55 E4  Ъ.Л.A..Eэ.MэQ.UД
+  00412860: 52 8B 45 08 50 FF 15 20 92 41 00 50 E8 5B E9 FF  R.E.PЪ. .A.PХ[ИЪ
+  00412870: FF 83 C4 0C 89 45 E0 8B 4D E4 51 FF 15 20 92 41  Ъ.д..EЮ.MДQЪ. .A
+  00412880: 00 A3 78 85 41 00 8B 55 DC 52 FF 15 20 92 41 00  .ёx.A..UэRЪ. .A.
+  00412890: A3 68 85 41 00 C7 45 FC FE FF FF FF E8 02 00 00  ёh.A.гEЭЧЪЪЪХ...
+  004128A0: 00 EB 0B 6A 08 E8 8C E8 FF FF 83 C4 04 C3 8B 45  .К.j.Х.ХЪЪ.д.ц.E
+  004128B0: E0 8B 4D F0 64 89 0D 00 00 00 00 59 5F 5E 5B 8B  Ю.MПd......Y_^[.
+  004128C0: E5 5D C3 CC CC CC CC CC CC CC CC CC CC CC CC CC  Е]цллллллллллллл
+  004128D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004128E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004128F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412900: 8B FF 55 8B EC 8B 45 08 50 E8 EC E7 FF FF 83 C4  .ЪU.Л.E.PХЛГЪЪ.д
+  00412910: 04 F7 D8 1B C0 F7 D8 83 E8 01 5D C3 CC CC CC CC  .Вь.юВь.Х.]цлллл
+  00412920: CC CC CC CC FF 25 C0 92 41 00 FF 25 BC 92 41 00  ллллЪ%ю.A.Ъ%╪.A.
+  00412930: FF 25 B8 92 41 00 CC CC CC CC CC CC CC CC CC CC  Ъ%╦.A.лллллллллл
+  00412940: 8B FF 55 8B EC 83 EC 18 C7 45 F8 00 00 00 00 C7  .ЪU.Л.Л.гEЬ....г
+  00412950: 45 FC 00 00 00 00 81 3D 2C 80 41 00 4E E6 40 BB  EЭ.....=,.A.NФ@╩
+  00412960: 74 1F A1 2C 80 41 00 25 00 00 FF FF 74 13 8B 0D  t.║,.A.%..ЪЪt...
+  00412970: 2C 80 41 00 F7 D1 89 0D 30 80 41 00 E9 9B 00 00  ,.A.Вя..0.A.И...
+  00412980: 00 8D 55 F8 52 FF 15 D8 91 41 00 8B 45 F8 89 45  ..UЬRЪ.ь.A..EЬ.E
+  00412990: F4 8B 4D F4 33 4D FC 89 4D F4 FF 15 DC 91 41 00  Т.MТ3MЭ.MТЪ.э.A.
+  004129A0: 33 45 F4 89 45 F4 FF 15 E0 91 41 00 33 45 F4 89  3EТ.EТЪ.Ю.A.3EТ.
+  004129B0: 45 F4 FF 15 E4 91 41 00 33 45 F4 89 45 F4 8D 55  EТЪ.Д.A.3EТ.EТ.U
+  004129C0: E8 52 FF 15 E8 91 41 00 8B 45 F4 33 45 E8 89 45  ХRЪ.Х.A..EТ3EХ.E
+  004129D0: F4 8B 4D F4 33 4D EC 89 4D F4 81 7D F4 4E E6 40  Т.MТ3MЛ.MТ.}ТNФ@
+  004129E0: BB 75 09 C7 45 F4 4F E6 40 BB EB 1C 8B 55 F4 81  ╩u.гEТOФ@╩К..UТ.
+  004129F0: E2 00 00 FF FF 75 11 8B 45 F4 0D 11 47 00 00 C1  Б..ЪЪu..EТ..G..а
+  00412A00: E0 10 0B 45 F4 89 45 F4 8B 4D F4 89 0D 2C 80 41  Ю..EТ.EТ.MТ..,.A
+  00412A10: 00 8B 55 F4 F7 D2 89 15 30 80 41 00 8B E5 5D C3  ..UТВр..0.A..Е]ц
+  00412A20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412A30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412A40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412A50: CC CC CC CC CC CC CC CC FF 25 B4 92 41 00 FF 25  ллллллллЪ%╢.A.Ъ%
+  00412A60: B0 92 41 00 FF 25 AC 92 41 00 FF 25 A8 92 41 00  ╟.A.Ъ%╛.A.Ъ%╗.A.
+  00412A70: FF 25 A0 92 41 00 CC CC CC CC CC CC CC CC CC CC  Ъ%═.A.лллллллллл
+  00412A80: 8B FF 55 8B EC 83 EC 0C 8B 45 08 89 45 F8 8B 4D  .ЪU.Л.Л..E..EЬ.M
+  00412A90: F8 0F B7 11 81 FA 4D 5A 00 00 74 04 33 C0 EB 3B  Ь.╥..ЗMZ..t.3юК;
+  00412AA0: 8B 45 F8 8B 4D F8 03 48 3C 89 4D F4 8B 55 F4 81  .EЬ.MЬ.H<.MТ.UТ.
+  00412AB0: 3A 50 45 00 00 74 04 33 C0 EB 20 8B 45 F4 83 C0  :PE..t.3юК .EТ.ю
+  00412AC0: 18 89 45 FC 8B 4D FC 0F B7 11 81 FA 0B 01 00 00  ..EЭ.MЭ.╥..З....
+  00412AD0: 74 04 33 C0 EB 05 B8 01 00 00 00 8B E5 5D C3 CC  t.3юК.╦.....Е]цл
+  00412AE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412AF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412B00: 8B FF 55 8B EC 83 EC 0C 8B 45 08 8B 4D 08 03 48  .ЪU.Л.Л..E..M..H
+  00412B10: 3C 89 4D FC C7 45 F8 00 00 00 00 8B 55 FC 0F B7  <.MЭгEЬ.....UЭ.╥
+  00412B20: 42 14 8B 4D FC 8D 54 01 18 89 55 F4 EB 12 8B 45  B..MЭ.T...UТК..E
+  00412B30: F8 83 C0 01 89 45 F8 8B 4D F4 83 C1 28 89 4D F4  Ь.ю..EЬ.MТ.а(.MТ
+  00412B40: 8B 55 FC 0F B7 42 06 39 45 F8 73 23 8B 4D F4 8B  .UЭ.╥B.9EЬs#.MТ.
+  00412B50: 55 0C 3B 51 0C 72 16 8B 45 F4 8B 48 0C 8B 55 F4  U.;Q.r..EТ.H..UТ
+  00412B60: 03 4A 08 39 4D 0C 73 05 8B 45 F4 EB 04 EB BF 33  .J.9M.s..EТК.К©3
+  00412B70: C0 8B E5 5D C3 CC CC CC CC CC CC CC CC CC CC CC  ю.Е]цллллллллллл
+  00412B80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412B90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412BA0: 8B FF 55 8B EC 6A FE 68 20 7D 41 00 68 7D 10 41  .ЪU.ЛjЧh }A.h}.A
+  00412BB0: 00 64 A1 00 00 00 00 50 83 C4 D8 53 56 57 A1 2C  .d║....P.дьSVW║,
+  00412BC0: 80 41 00 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00  .A.1EЬ3еP.EПdё..
+  00412BD0: 00 00 89 65 E8 C7 45 E4 00 00 40 00 C7 45 FC 00  ...eХгEД..@.гEЭ.
+  00412BE0: 00 00 00 8B 45 E4 50 E8 F5 E4 FF FF 83 C4 04 85  ....EДPХУДЪЪ.д..
+  00412BF0: C0 75 16 C7 45 D4 00 00 00 00 C7 45 FC FE FF FF  юu.гEт....гEЭЧЪЪ
+  00412C00: FF 8B 45 D4 E9 97 00 00 00 8B 4D 08 2B 4D E4 89  Ъ.EтИ.....M.+MД.
+  00412C10: 4D DC 8B 55 DC 52 8B 45 E4 50 E8 9A E4 FF FF 83  Mэ.UэR.EДPХ.ДЪЪ.
+  00412C20: C4 08 89 45 E0 83 7D E0 00 75 13 C7 45 D0 00 00  д..EЮ.}Ю.u.гEп..
+  00412C30: 00 00 C7 45 FC FE FF FF FF 8B 45 D0 EB 62 8B 4D  ..гEЭЧЪЪЪ.EпКb.M
+  00412C40: E0 8B 51 24 81 E2 00 00 00 80 F7 DA 1B D2 83 C2  Ю.Q$.Б....Вз.р.б
+  00412C50: 01 89 55 CC C7 45 FC FE FF FF FF 8B 45 CC EB 40  ..UлгEЭЧЪЪЪ.EлК@
+  00412C60: C7 45 FC FE FF FF FF EB 37 8B 45 EC 8B 08 8B 11  гEЭЧЪЪЪК7.EЛ....
+  00412C70: 89 55 D8 8B 45 D8 33 C9 3D 05 00 00 C0 0F 94 C1  .Uь.Eь3и=...ю..а
+  00412C80: 8B C1 C3 8B 65 E8 C7 45 C8 00 00 00 00 C7 45 FC  .ац.eХгEх....гEЭ
+  00412C90: FE FF FF FF 8B 45 C8 EB 07 C7 45 FC FE FF FF FF  ЧЪЪЪ.EхК.гEЭЧЪЪЪ
+  00412CA0: 8B 4D F0 64 89 0D 00 00 00 00 59 5F 5E 5B 8B E5  .MПd......Y_^[.Е
+  00412CB0: 5D C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC  ]цлллллллллллллл
+  00412CC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412CD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412CE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412CF0: CC CC CC CC CC CC FF 25 9C 92 41 00 FF 25 98 92  ллллллЪ%..A.Ъ%..
+  00412D00: 41 00 FF 25 94 92 41 00 CC CC CC CC CC CC CC CC  A.Ъ%..A.лллллллл
+  00412D10: 8B FF 55 8B EC 8B 45 14 50 8B 4D 10 51 8B 55 0C  .ЪU.Л.E.P.M.Q.U.
+  00412D20: 52 8B 45 08 50 68 14 10 41 00 68 2C 80 41 00 E8  R.E.Ph..A.h,.A.Х
+  00412D30: 75 E4 FF FF 83 C4 18 5D C3 CC CC CC CC CC CC CC  uДЪЪ.д.]цллллллл
+  00412D40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412D50: 8B FF 55 8B EC 8B 45 14 8B 55 0C 83 EC 44 56 8B  .ЪU.Л.E..U..ЛDV.
+  00412D60: 75 08 C7 00 00 00 00 00 6A 1C 8D 45 BC 50 33 C9  u.г.....j..E╪P3и
+  00412D70: 4E 56 66 89 0A FF 15 C4 91 41 00 85 C0 75 07 33  NVf..Ъ.д.A..юu.3
+  00412D80: C0 5E 8B E5 5D C3 8B 4D 1C 8B 55 18 8B 45 C0 51  ю^.Е]ц.M..U..EюQ
+  00412D90: 52 50 FF 15 C8 91 41 00 85 C0 74 E3 8B 55 C0 B9  RPЪ.х.A..юtЦ.Uю╧
+  00412DA0: 4D 5A 00 00 66 39 0A 75 D6 8B 42 3C 85 C0 7E CF  MZ..f9.uж.B<.ю~о
+  00412DB0: 03 C2 81 38 50 45 00 00 75 C5 0F B7 48 06 53 57  .б.8PE..uе.╥H.SW
+  00412DC0: 0F B7 78 14 8D 44 07 24 2B F2 33 FF 33 DB 85 C9  .╥x..D.$+Р3Ъ3ш.и
+  00412DD0: 74 17 8B 10 3B F2 72 09 8B FE 2B FA 3B 70 FC 72  t...;Рr..Ч+З;pЭr
+  00412DE0: 08 43 83 C0 28 3B D9 72 E9 3B D9 74 5B 43 80 3D  .C.ю(;ыrИ;ыt[C.=
+  00412DF0: 8C 81 41 00 00 75 20 83 3D 88 81 41 00 00 75 48  ..A..u .=..A..uH
+  00412E00: E8 BB 02 00 00 A3 88 81 41 00 85 C0 74 3A C6 05  Х╩...ё..A..юt:ф.
+  00412E10: 8C 81 41 00 01 EB 05 A1 88 81 41 00 68 9C 72 41  ..A..К.║..A.h.rA
+  00412E20: 00 50 FF 15 F8 91 41 00 33 F6 3B C6 74 1A 8D 55  .PЪ.Ь.A.3Ж;фt..U
+  00412E30: F0 52 8B 55 18 56 56 8D 4D D8 51 56 56 56 52 FF  ПR.U.VV.MьQVVVRЪ
+  00412E40: D0 83 C4 20 85 C0 75 09 5F 5B 33 C0 5E 8B E5 5D  п.д .юu._[3ю^.Е]
+  00412E50: C3 8B 4D F0 8B 01 8B 10 89 75 E4 FF D2 3D B5 A5  ц.MП.....uДЪр=╣╔
+  00412E60: 31 01 0F 85 8C 01 00 00 8B 4D F0 8B 01 8B 40 1C  1........MП...@.
+  00412E70: 8D 55 E8 52 68 98 72 41 00 56 FF D0 85 C0 0F 84  .UХRh.rA.VЪп.ю..
+  00412E80: 70 01 00 00 8B 4D E8 8B 11 8B 52 20 56 56 56 8D  p....MХ...R VVV.
+  00412E90: 45 F4 50 57 53 FF D2 85 C0 0F 84 4B 01 00 00 8B  EТPWSЪр.ю..K....
+  00412EA0: 4D F4 89 75 FC 8B 01 8B 40 68 8D 55 FC 52 FF D0  MТ.uЭ...@h.UЭRЪп
+  00412EB0: 84 C0 0F 84 28 01 00 00 8B 4D FC 3B CE 0F 84 1D  .ю..(....MЭ;н...
+  00412EC0: 01 00 00 8B 11 8B 42 08 FF D0 85 C0 0F 84 F5 00  ......B.Ъп.ю..У.
+  00412ED0: 00 00 8B 4D FC 8B 11 8B 52 0C 6A 00 8D 45 F8 50  ...MЭ...R.j..EЬP
+  00412EE0: 8D 45 E0 50 8D 45 08 50 8D 45 EC 50 6A 00 FF D2  .EЮP.E.P.EЛPj.Ър
+  00412EF0: 84 C0 0F 84 DF 00 00 00 0F B7 45 08 3B C3 75 0E  .ю..ъ....╥E.;цu.
+  00412F00: 8B 45 EC 3B C7 77 07 03 45 E0 3B F8 72 13 8B 4D  .EЛ;гw..EЮ;Ьr..M
+  00412F10: FC 8B 11 8B 42 08 FF D0 85 C0 75 B6 E9 A6 00 00  Э...B.Ъп.юu╤И╕..
+  00412F20: 00 8B 45 F8 85 C0 0F 84 AB 00 00 00 3D FF FF FF  ..EЬ.ю..╚...=ЪЪЪ
+  00412F30: 1F 0F 83 A0 00 00 00 8D 0C C5 00 00 00 00 51 6A  ...═.....е....Qj
+  00412F40: 00 FF 15 CC 91 41 00 50 FF 15 D0 91 41 00 8B F0  .Ъ.л.A.PЪ.п.A..П
+  00412F50: 85 F6 0F 84 7F 00 00 00 8B 4D FC 8B 11 8B 52 0C  .Ж.......MЭ...R.
+  00412F60: 56 8D 45 F8 50 6A 00 6A 00 6A 00 8D 45 DC 50 FF  V.EЬPj.j.j..EэPЪ
+  00412F70: D2 84 C0 74 52 2B 7D EC 3B 3E 72 4B 8B 4D F8 B8  р.юtR+}Л;>rK.MЬ╦
+  00412F80: 01 00 00 00 3B C8 76 0A 3B 3C C6 72 05 40 3B C1  ....;хv.;<фr.@;а
+  00412F90: 72 F6 8B 44 C6 FC 8B 4D 14 6A 00 25 FF FF FF 00  rЖ.DфЭ.M.j.%ЪЪЪ.
+  00412FA0: 89 01 8B 4D F4 8B 11 8B 52 70 6A 00 6A 00 8D 45  ...MТ...Rpj.j..E
+  00412FB0: 10 50 8B 45 0C 50 8B 45 DC 50 FF D2 84 C0 74 07  .P.E.P.EэPЪр.юt.
+  00412FC0: C7 45 E4 01 00 00 00 56 6A 00 FF 15 CC 91 41 00  гEД....Vj.Ъ.л.A.
+  00412FD0: 50 FF 15 D4 91 41 00 8B 4D FC 8B 01 8B 10 FF D2  PЪ.т.A..MЭ....Ър
+  00412FE0: 8B 4D F4 8B 01 8B 50 40 FF D2 8B 4D E8 8B 01 8B  .MТ...P@Ър.MХ...
+  00412FF0: 50 38 FF D2 8B 4D F0 8B 01 8B 50 28 FF D2 8B 45  P8Ър.MП...P(Ър.E
+  00413000: E4 5F 5B 5E 8B E5 5D C3 CC CC CC CC CC CC CC CC  Д_[^.Е]цлллллллл
+  00413010: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413020: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413030: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413040: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413050: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413060: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413070: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413080: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413090: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004130A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004130B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004130C0: 8B FF 55 8B EC 81 EC 14 04 00 00 A1 2C 80 41 00  .ЪU.Л.Л....║,.A.
+  004130D0: 33 C5 89 45 FC 80 3D 8D 81 41 00 00 74 10 33 C0  3е.EЭ.=..A..t.3ю
+  004130E0: 8B 4D FC 33 CD E8 2A DF FF FF 8B E5 5D C3 C6 05  .MЭ3мХ*ъЪЪ.Е]цф.
+  004130F0: 8D 81 41 00 01 E8 F6 00 00 00 85 C0 0F 85 A0 00  ..A..ХЖ....ю..═.
+  00413100: 00 00 56 57 68 70 72 41 00 FF 15 C0 91 41 00 8B  ..VWhprA.Ъ.ю.A..
+  00413110: 3D F4 91 41 00 8B 35 C8 91 41 00 85 C0 74 3F 68  =Т.A..5х.A..юt?h
+  00413120: 04 01 00 00 8D 8D F4 FD FF FF 51 50 FF D6 85 C0  ......ТЩЪЪQPЪж.ю
+  00413130: 74 2C 68 04 01 00 00 8D 95 EC FB FF FF 52 8D 85  t,h......ЛШЪЪR..
+  00413140: F4 FD FF FF 50 E8 D6 02 00 00 83 C4 0C 85 C0 74  ТЩЪЪPХж....д..юt
+  00413150: 0D 8D 8D EC FB FF FF 51 FF D7 85 C0 75 42 68 04  ...ЛШЪЪQЪв.юuBh.
+  00413160: 01 00 00 8D 95 F4 FD FF FF 52 6A 00 FF D6 85 C0  .....ТЩЪЪRj.Ъж.ю
+  00413170: 74 2C 68 04 01 00 00 8D 85 EC FB FF FF 50 8D 8D  t,h......ЛШЪЪP..
+  00413180: F4 FD FF FF 51 E8 96 02 00 00 83 C4 0C 85 C0 74  ТЩЪЪQХ.....д..юt
+  00413190: 0D 8D 95 EC FB FF FF 52 FF D7 85 C0 75 02 33 C0  ...ЛШЪЪRЪв.юu.3ю
+  004131A0: 5F 5E 8B 4D FC 33 CD E8 68 DE FF FF 8B E5 5D C3  _^.MЭ3мХhчЪЪ.Е]ц
+  004131B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004131C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004131D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004131E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004131F0: 8B FF 55 8B EC 81 EC 1C 02 00 00 A1 2C 80 41 00  .ЪU.Л.Л....║,.A.
+  00413200: 33 C5 89 45 FC 56 68 8C 73 41 00 FF 15 F4 91 41  3е.EЭVh.sA.Ъ.Т.A
+  00413210: 00 8B F0 85 F6 75 0F 5E 8B 4D FC 33 CD E8 F2 DD  ..П.Жu.^.MЭ3мХРщ
+  00413220: FF FF 8B E5 5D C3 57 8B 3D F8 91 41 00 68 7C 73  ЪЪ.Е]цW.=Ь.A.h|s
+  00413230: 41 00 56 FF D7 89 85 E8 FD FF FF 85 C0 75 10 5F  A.VЪв..ХЩЪЪ.юu._
+  00413240: 5E 8B 4D FC 33 CD E8 C9 DD FF FF 8B E5 5D C3 53  ^.MЭ3мХищЪЪ.Е]цS
+  00413250: 68 68 73 41 00 56 FF D7 8B D8 85 DB 74 34 68 58  hhsA.VЪв.ь.шt4hX
+  00413260: 73 41 00 56 FF D7 8B F8 85 FF 74 26 8D 85 EC FD  sA.VЪв.Ь.Ъt&..ЛЩ
+  00413270: FF FF 50 6A 01 6A 00 68 E8 72 41 00 68 02 00 00  ЪЪPj.j.hХrA.h...
+  00413280: 80 FF 95 E8 FD FF FF 85 C0 74 1A 56 FF 15 BC 91  .Ъ.ХЩЪЪ.юt.VЪ.╪.
+  00413290: 41 00 5B 5F 33 C0 5E 8B 4D FC 33 CD E8 73 DD FF  A.[_3ю^.MЭ3мХsщЪ
+  004132A0: FF 8B E5 5D C3 8D 8D F0 FD FF FF 51 8B 8D EC FD  Ъ.Е]ц..ПЩЪЪQ..ЛЩ
+  004132B0: FF FF 8D 95 F4 FD FF FF 52 8D 85 E4 FD FF FF 50  ЪЪ..ТЩЪЪR..ДЩЪЪP
+  004132C0: 6A 00 68 B0 72 41 00 51 C7 85 F0 FD FF FF 08 02  j.h╟rA.Qг.ПЩЪЪ..
+  004132D0: 00 00 FF D3 8B 95 EC FD FF FF 52 8B D8 FF D7 56  ..Ъс..ЛЩЪЪR.ьЪвV
+  004132E0: FF 15 BC 91 41 00 85 DB 75 A8 83 BD E4 FD FF FF  Ъ.╪.A..шu╗.╫ДЩЪЪ
+  004132F0: 01 75 9F 8B 85 F0 FD FF FF A8 01 75 95 D1 E8 83  .u...ПЩЪЪ╗.u.яХ.
+  00413300: F8 02 72 8E 48 66 39 9C 45 F4 FD FF FF 75 83 66  Ь.r.Hf9.EТЩЪЪu.f
+  00413310: 83 BC 45 F2 FD FF FF 5C 74 0E B9 5C 00 00 00 66  .╪EРЩЪЪ\t.╧\...f
+  00413320: 89 8C 45 F4 FD FF FF 40 83 CA FF 2B D0 83 FA 0E  ..EТЩЪЪ@.йЪ+п.З.
+  00413330: 0F 82 5C FF FF FF 8D 48 0D 81 F9 04 01 00 00 0F  ..\ЪЪЪ.H..Ы.....
+  00413340: 87 4D FF FF FF 8B 15 54 72 41 00 8B 0D 58 72 41  .MЪЪЪ..TrA...XrA
+  00413350: 00 8D 84 45 F4 FD FF FF 89 10 8B 15 5C 72 41 00  ...EТЩЪЪ....\rA.
+  00413360: 89 48 04 8B 0D 60 72 41 00 89 50 08 8B 15 64 72  .H...`rA..P...dr
+  00413370: 41 00 89 48 0C 8B 0D 68 72 41 00 89 50 10 66 8B  A..H...hrA..P.f.
+  00413380: 15 6C 72 41 00 89 48 14 66 89 50 18 8D 85 F4 FD  .lrA..H.f.P...ТЩ
+  00413390: FF FF 50 FF 15 F4 91 41 00 8B 4D FC 5B 5F 33 CD  ЪЪPЪ.Т.A..MЭ[_3м
+  004133A0: 5E E8 6E DC FF FF 8B E5 5D C3 CC CC CC CC CC CC  ^ХnэЪЪ.Е]цлллллл
+  004133B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004133C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004133D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004133E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004133F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413400: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413410: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413420: 8B FF 55 8B EC 81 EC 0C 06 00 00 A1 2C 80 41 00  .ЪU.Л.Л....║,.A.
+  00413430: 33 C5 89 45 FC 8B 45 08 56 8B 75 0C 68 00 01 00  3е.EЭ.E.V.u.h...
+  00413440: 00 8D 8D F4 FD FF FF 51 68 00 01 00 00 8D 95 F4  ...ТЩЪЪQh......Т
+  00413450: FB FF FF 52 68 00 01 00 00 8D 8D F4 F9 FF FF 51  ШЪЪRh......ТЫЪЪQ
+  00413460: 6A 03 8D 55 F4 52 50 E8 CB DB FF FF 83 C4 24 85  j..UТRPХкшЪЪ.д$.
+  00413470: C0 74 11 33 C0 5E 8B 4D FC 33 CD E8 94 DB FF FF  юt.3ю^.MЭ3мХ.шЪЪ
+  00413480: 8B E5 5D C3 68 B8 73 41 00 8D 85 F4 FB FF FF 6A  .Е]цh╦sA...ТШЪЪj
+  00413490: 09 50 E8 49 DD FF FF 83 C4 0C 85 C0 75 D5 68 AC  .PХIщЪЪ.д..юuуh╛
+  004134A0: 73 41 00 8D 8D F4 FD FF FF 6A 04 51 E8 2F DD FF  sA...ТЩЪЪj.QХ/щЪ
+  004134B0: FF 83 C4 0C 85 C0 75 BB 8D 95 F4 FD FF FF 52 8D  Ъ.д..юu╩..ТЩЪЪR.
+  004134C0: 85 F4 FB FF FF 50 8B 45 10 8D 8D F4 F9 FF FF 51  .ТШЪЪP.E...ТЫЪЪQ
+  004134D0: 8D 55 F4 52 50 56 E8 97 DC FF FF 8B 4D FC 83 C4  .UТRPVХ.эЪЪ.MЭ.д
+  004134E0: 18 F7 D8 1B C0 33 CD 40 5E E8 26 DB FF FF 8B E5  .Вь.ю3м@^Х&шЪЪ.Е
+  004134F0: 5D C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC  ]цлллллллллллллл
+  00413500: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413510: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413520: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413530: 3B 0D 2C 80 41 00 75 02 F3 C3 E9 52 DB FF FF CC  ;.,.A.u.СцИRшЪЪл
+  00413540: CC CC FF 25 90 92 41 00 FF 25 8C 92 41 00 FF 25  ллЪ%..A.Ъ%..A.Ъ%
+  00413550: 88 92 41 00 FF 25 84 92 41 00 FF 25 80 92 41 00  ..A.Ъ%..A.Ъ%..A.
+  00413560: FF 25 7C 92 41 00 FF 25 74 92 41 00 FF 25 6C 92  Ъ%|.A.Ъ%t.A.Ъ%l.
+  00413570: 41 00 FF 25 68 92 41 00 FF 25 E0 92 41 00 CC CC  A.Ъ%h.A.Ъ%Ю.A.лл
+  00413580: 8B FF 55 8B EC 81 EC 28 03 00 00 A3 98 82 41 00  .ЪU.Л.Л(...ё..A.
+  00413590: 89 0D 94 82 41 00 89 15 90 82 41 00 89 1D 8C 82  ....A.....A.....
+  004135A0: 41 00 89 35 88 82 41 00 89 3D 84 82 41 00 66 8C  A..5..A..=..A.f.
+  004135B0: 15 B0 82 41 00 66 8C 0D A4 82 41 00 66 8C 1D 80  .╟.A.f..╓.A.f...
+  004135C0: 82 41 00 66 8C 05 7C 82 41 00 66 8C 25 78 82 41  .A.f..|.A.f.%x.A
+  004135D0: 00 66 8C 2D 74 82 41 00 9C 8F 05 A8 82 41 00 8B  .f.-t.A....╗.A..
+  004135E0: 45 00 A3 9C 82 41 00 8B 45 04 A3 A0 82 41 00 8D  E.ё..A..E.ё═.A..
+  004135F0: 45 08 A3 AC 82 41 00 8B 85 E0 FC FF FF C7 05 E8  E.ё╛.A...ЮЭЪЪг.Х
+  00413600: 81 41 00 01 00 01 00 A1 A0 82 41 00 A3 9C 81 41  .A.....║═.A.ё..A
+  00413610: 00 C7 05 90 81 41 00 09 04 00 C0 C7 05 94 81 41  .г...A....юг...A
+  00413620: 00 01 00 00 00 8B 0D 2C 80 41 00 89 8D D8 FC FF  .......,.A...ьЭЪ
+  00413630: FF 8B 15 30 80 41 00 89 95 DC FC FF FF FF 15 08  Ъ..0.A...эЭЪЪЪ..
+  00413640: 92 41 00 A3 E0 81 41 00 6A 01 E8 8D DA FF FF 83  .A.ёЮ.A.j.Х.зЪЪ.
+  00413650: C4 04 6A 00 FF 15 F0 91 41 00 68 D0 73 41 00 FF  д.j.Ъ.П.A.hпsA.Ъ
+  00413660: 15 24 92 41 00 83 3D E0 81 41 00 00 75 0A 6A 01  .$.A..=Ю.A..u.j.
+  00413670: E8 67 DA FF FF 83 C4 04 68 09 04 00 C0 FF 15 B4  ХgзЪЪ.д.h...юЪ.╢
+  00413680: 91 41 00 50 FF 15 B8 91 41 00 8B E5 5D C3 CC CC  .A.PЪ.╦.A..Е]цлл
+  00413690: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004136A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004136B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004136C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004136D0: CC CC FF 25 70 92 41 00 FF 25 20 92 41 00 FF 25  ллЪ%p.A.Ъ% .A.Ъ%
+  004136E0: 1C 92 41 00 FF 25 18 92 41 00 FF 25 14 92 41 00  ..A.Ъ%..A.Ъ%..A.
+  004136F0: FF 25 10 92 41 00 FF 25 0C 92 41 00 FF 25 08 92  Ъ%..A.Ъ%..A.Ъ%..
+  00413700: 41 00 FF 25 04 92 41 00 FF 25 00 92 41 00 FF 25  A.Ъ%..A.Ъ%..A.Ъ%
+  00413710: FC 91 41 00 FF 25 F8 91 41 00 FF 25 F4 91 41 00  Э.A.Ъ%Ь.A.Ъ%Т.A.
+  00413720: FF 25 F0 91 41 00 FF 25 EC 91 41 00 FF 25 E8 91  Ъ%П.A.Ъ%Л.A.Ъ%Х.
+  00413730: 41 00 FF 25 E4 91 41 00 FF 25 E0 91 41 00 FF 25  A.Ъ%Д.A.Ъ%Ю.A.Ъ%
+  00413740: DC 91 41 00 FF 25 D8 91 41 00 FF 25 D4 91 41 00  э.A.Ъ%ь.A.Ъ%т.A.
+  00413750: FF 25 D0 91 41 00 FF 25 CC 91 41 00 FF 25 C8 91  Ъ%п.A.Ъ%л.A.Ъ%х.
+  00413760: 41 00 FF 25 C4 91 41 00 FF 25 C0 91 41 00 FF 25  A.Ъ%д.A.Ъ%ю.A.Ъ%
+  00413770: BC 91 41 00 FF 25 B8 91 41 00 FF 25 B4 91 41 00  ╪.A.Ъ%╦.A.Ъ%╢.A.
+  00413780: FF 25 24 92 41 00 CC CC CC CC CC CC CC CC CC CC  Ъ%$.A.лллллллллл
+  00413790: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413800: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413810: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413820: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413830: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413840: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413850: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413860: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413870: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413880: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413890: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413900: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413910: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413920: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413930: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413940: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413950: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413960: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413970: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413980: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413990: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413ED0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414000: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414010: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414020: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414030: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414040: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414050: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414060: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414070: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414080: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414090: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414100: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414110: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414120: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414130: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414140: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414150: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414160: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414170: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414180: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414190: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414200: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414210: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414220: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414230: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414240: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414250: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414260: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414270: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414280: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414290: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414300: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414310: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414320: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414330: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414340: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414350: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414360: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414370: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414380: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414390: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414400: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414410: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414420: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414430: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414440: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414450: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414460: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414470: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414480: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414490: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414500: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414510: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414520: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414530: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414540: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414550: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414560: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414570: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414580: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414590: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414600: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414610: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414620: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414630: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414640: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414650: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414660: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414670: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414680: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414690: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146F0: 55 8B EC 81 EC C0 00 00 00 53 56 57 8D BD 40 FF  U.Л.Лю...SVW.╫@Ъ
+  00414700: FF FF B9 30 00 00 00 B8 CC CC CC CC F3 AB E8 6E  ЪЪ╧0...╦ллллС╚Хn
+  00414710: CA FF FF A3 38 81 41 00 5F 5E 5B 81 C4 C0 00 00  йЪЪё8.A._^[.дю..
+  00414720: 00 3B EC E8 22 CA FF FF 8B E5 5D C3 CC CC CC CC  .;ЛХ"йЪЪ.Е]цлллл
+  00414730: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414740: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414750: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414760: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414770: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414780: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414790: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004147A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004147B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004147C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004147D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004147E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004147F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414800: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414810: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414820: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414830: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414840: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414850: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414860: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414870: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414880: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414890: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004148A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004148B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004148C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004148D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004148E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004148F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414900: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414910: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414920: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414930: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414940: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414950: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414960: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414970: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414980: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414990: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004149A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004149B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004149C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004149D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004149E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004149F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414A90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414AA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414AB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414AC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414AD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414AE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414AF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414B90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414BA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414BB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414BC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414BD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414BE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414BF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414C90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414CA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414CB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414CC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414CD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414CE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414CF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414D90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414DA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414DB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414DC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414DD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414DE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414DF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414E90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414EA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414EB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414EC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414ED0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414EE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414EF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414F90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414FA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414FB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414FC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414FD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414FE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414FF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415000: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415010: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415020: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415030: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415040: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415050: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415060: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415070: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415080: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415090: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004150A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004150B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004150C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004150D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004150E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004150F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415100: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415110: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415120: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415130: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415140: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415150: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415160: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415170: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415180: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415190: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004151A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004151B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004151C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004151D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004151E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004151F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415200: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415210: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415220: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415230: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415240: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415250: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415260: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415270: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415280: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415290: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004152A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004152B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004152C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004152D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004152E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004152F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415300: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415310: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415320: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415330: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415340: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415350: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415360: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415370: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415380: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415390: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004153A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004153B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004153C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004153D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004153E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004153F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415400: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415410: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415420: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415430: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415440: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415450: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415460: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415470: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415480: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415490: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004154A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004154B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004154C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004154D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004154E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004154F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415500: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415510: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415520: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415530: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415540: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415550: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415560: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415570: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415580: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415590: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004155A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004155B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004155C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004155D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004155E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004155F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415600: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415610: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415620: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415630: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415640: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415650: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415660: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415670: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415680: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415690: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004156A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004156B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004156C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004156D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004156E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004156F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415700: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415710: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415720: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00415730: CC CC CC CC CC CC CC CC CC CC CC                 ллллллллллл
+
+SECTION HEADER #3
+  .rdata name
+    1E51 virtual size
+   16000 virtual address (00416000 to 00417E50)
+    2000 size of raw data
+    4C00 file pointer to raw data (00004C00 to 00006BFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+RAW DATA #3
+  00416000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004160A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004160B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004160C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004160D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004160E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004160F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416100: 00 00 00 00 00 18 41 00 00 00 00 00 00 00 00 00  ......A.........
+  00416110: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416120: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416130: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416140: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416150: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416160: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416170: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416190: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004161A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004161B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004161C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004161D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004161E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004161F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416200: 00 00 00 00 00 00 00 00 F0 46 41 00 00 00 00 00  ........ПFA.....
+  00416210: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416220: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416230: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416240: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416250: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416260: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416270: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416280: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416290: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004162A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004162B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004162C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004162D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004162E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004162F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416300: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416310: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416320: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416330: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416340: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416350: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416360: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416370: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416380: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416390: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004163A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004163B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004163C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004163D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004163E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004163F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416400: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416410: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416420: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416430: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416440: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416450: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416460: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416470: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416480: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416490: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004164A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004164B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004164C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004164D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004164E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004164F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416500: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416510: 00 00 00 00 50 17 41 00 00 00 00 00 00 00 00 00  ....P.A.........
+  00416520: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416530: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416540: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416550: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416560: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416570: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416580: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416590: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004165A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004165B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004165C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004165D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004165E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004165F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416600: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416610: 00 00 00 00 00 00 00 00 27 11 41 00 00 00 00 00  ........'.A.....
+  00416620: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416630: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416640: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416650: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416660: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416670: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416680: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416690: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004166A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004166B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004166C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004166D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004166E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004166F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416700: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416710: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416720: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416730: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416740: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416750: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416760: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416770: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416780: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004167A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004167B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004167C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004167D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004167E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004167F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416800: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416810: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416820: 00 00 00 00 0C 3F C9 51 00 00 00 00 02 00 00 00  .....?иQ........
+  00416830: 60 00 00 00 10 75 01 00 10 61 00 00 5B 69 5D 20  `....u...a..[i] 
+  00416840: 49 27 6D 20 61 20 64 65 63 6F 6E 73 74 72 75 63  I'm a deconstruc
+  00416850: 74 6F 72 00 5B 69 5D 20 49 27 6D 20 6D 61 69 6E  tor.[i] I'm main
+  00416860: 0A 00 00 00 00 00 00 00 66 00 3A 00 5C 00 64 00  ........f.:.\.d.
+  00416870: 64 00 5C 00 76 00 63 00 74 00 6F 00 6F 00 6C 00  d.\.v.c.t.o.o.l.
+  00416880: 73 00 5C 00 63 00 72 00 74 00 5F 00 62 00 6C 00  s.\.c.r.t._.b.l.
+  00416890: 64 00 5C 00 73 00 65 00 6C 00 66 00 5F 00 78 00  d.\.s.e.l.f._.x.
+  004168A0: 38 00 36 00 5C 00 63 00 72 00 74 00 5C 00 73 00  8.6.\.c.r.t.\.s.
+  004168B0: 72 00 63 00 5C 00 63 00 72 00 74 00 65 00 78 00  r.c.\.c.r.t.e.x.
+  004168C0: 65 00 2E 00 63 00 00 00 00 00 00 00 00 00 00 00  e...c...........
+  004168D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004168E0: 5F 00 5F 00 6E 00 61 00 74 00 69 00 76 00 65 00  _._.n.a.t.i.v.e.
+  004168F0: 5F 00 73 00 74 00 61 00 72 00 74 00 75 00 70 00  _.s.t.a.r.t.u.p.
+  00416900: 5F 00 73 00 74 00 61 00 74 00 65 00 20 00 3D 00  _.s.t.a.t.e. .=.
+  00416910: 3D 00 20 00 5F 00 5F 00 69 00 6E 00 69 00 74 00  =. ._._.i.n.i.t.
+  00416920: 69 00 61 00 6C 00 69 00 7A 00 65 00 64 00 00 00  i.a.l.i.z.e.d...
+  00416930: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416940: 55 6E 6B 6E 6F 77 6E 20 52 75 6E 74 69 6D 65 20  Unknown Runtime 
+  00416950: 43 68 65 63 6B 20 45 72 72 6F 72 0A 0D 00 00 00  Check Error.....
+  00416960: 00 00 00 00 53 74 61 63 6B 20 6D 65 6D 6F 72 79  ....Stack memory
+  00416970: 20 61 72 6F 75 6E 64 20 5F 61 6C 6C 6F 63 61 20   around _alloca 
+  00416980: 77 61 73 20 63 6F 72 72 75 70 74 65 64 0A 0D 00  was corrupted...
+  00416990: 00 00 00 00 00 00 00 00 41 20 6C 6F 63 61 6C 20  ........A local 
+  004169A0: 76 61 72 69 61 62 6C 65 20 77 61 73 20 75 73 65  variable was use
+  004169B0: 64 20 62 65 66 6F 72 65 20 69 74 20 77 61 73 20  d before it was 
+  004169C0: 69 6E 69 74 69 61 6C 69 7A 65 64 0A 0D 00 00 00  initialized.....
+  004169D0: 00 00 00 00 00 00 00 00 53 74 61 63 6B 20 6D 65  ........Stack me
+  004169E0: 6D 6F 72 79 20 77 61 73 20 63 6F 72 72 75 70 74  mory was corrupt
+  004169F0: 65 64 0A 0D 00 00 00 00 00 00 00 00 00 00 00 00  ed..............
+  00416A00: 41 20 63 61 73 74 20 74 6F 20 61 20 73 6D 61 6C  A cast to a smal
+  00416A10: 6C 65 72 20 64 61 74 61 20 74 79 70 65 20 68 61  ler data type ha
+  00416A20: 73 20 63 61 75 73 65 64 20 61 20 6C 6F 73 73 20  s caused a loss 
+  00416A30: 6F 66 20 64 61 74 61 2E 20 20 49 66 20 74 68 69  of data.  If thi
+  00416A40: 73 20 77 61 73 20 69 6E 74 65 6E 74 69 6F 6E 61  s was intentiona
+  00416A50: 6C 2C 20 79 6F 75 20 73 68 6F 75 6C 64 20 6D 61  l, you should ma
+  00416A60: 73 6B 20 74 68 65 20 73 6F 75 72 63 65 20 6F 66  sk the source of
+  00416A70: 20 74 68 65 20 63 61 73 74 20 77 69 74 68 20 74   the cast with t
+  00416A80: 68 65 20 61 70 70 72 6F 70 72 69 61 74 65 20 62  he appropriate b
+  00416A90: 69 74 6D 61 73 6B 2E 20 20 46 6F 72 20 65 78 61  itmask.  For exa
+  00416AA0: 6D 70 6C 65 3A 20 20 0A 0D 09 63 68 61 72 20 63  mple:  ...char c
+  00416AB0: 20 3D 20 28 69 20 26 20 30 78 46 46 29 3B 0A 0D   = (i & 0xFF);..
+  00416AC0: 43 68 61 6E 67 69 6E 67 20 74 68 65 20 63 6F 64  Changing the cod
+  00416AD0: 65 20 69 6E 20 74 68 69 73 20 77 61 79 20 77 69  e in this way wi
+  00416AE0: 6C 6C 20 6E 6F 74 20 61 66 66 65 63 74 20 74 68  ll not affect th
+  00416AF0: 65 20 71 75 61 6C 69 74 79 20 6F 66 20 74 68 65  e quality of the
+  00416B00: 20 72 65 73 75 6C 74 69 6E 67 20 6F 70 74 69 6D   resulting optim
+  00416B10: 69 7A 65 64 20 63 6F 64 65 2E 0A 0D 00 00 00 00  ized code.......
+  00416B20: 5B 69 5D 20 49 27 6D 20 61 20 67 6C 6F 62 61 6C  [i] I'm a global
+  00416B30: 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416B40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416B50: 00 00 00 00 00 00 00 00 54 68 65 20 76 61 6C 75  ........The valu
+  00416B60: 65 20 6F 66 20 45 53 50 20 77 61 73 20 6E 6F 74  e of ESP was not
+  00416B70: 20 70 72 6F 70 65 72 6C 79 20 73 61 76 65 64 20   properly saved 
+  00416B80: 61 63 72 6F 73 73 20 61 20 66 75 6E 63 74 69 6F  across a functio
+  00416B90: 6E 20 63 61 6C 6C 2E 20 20 54 68 69 73 20 69 73  n call.  This is
+  00416BA0: 20 75 73 75 61 6C 6C 79 20 61 20 72 65 73 75 6C   usually a resul
+  00416BB0: 74 20 6F 66 20 63 61 6C 6C 69 6E 67 20 61 20 66  t of calling a f
+  00416BC0: 75 6E 63 74 69 6F 6E 20 64 65 63 6C 61 72 65 64  unction declared
+  00416BD0: 20 77 69 74 68 20 6F 6E 65 20 63 61 6C 6C 69 6E   with one callin
+  00416BE0: 67 20 63 6F 6E 76 65 6E 74 69 6F 6E 20 77 69 74  g convention wit
+  00416BF0: 68 20 61 20 66 75 6E 63 74 69 6F 6E 20 70 6F 69  h a function poi
+  00416C00: 6E 74 65 72 20 64 65 63 6C 61 72 65 64 20 77 69  nter declared wi
+  00416C10: 74 68 20 61 20 64 69 66 66 65 72 65 6E 74 20 63  th a different c
+  00416C20: 61 6C 6C 69 6E 67 20 63 6F 6E 76 65 6E 74 69 6F  alling conventio
+  00416C30: 6E 2E 0A 0D 00 00 00 00 00 00 00 00 00 00 00 00  n...............
+  00416C40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416C50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416C60: 00 00 00 00 58 6B 41 00 00 6A 41 00 D8 69 41 00  ....XkA..jA.ьiA.
+  00416C70: 98 69 41 00 64 69 41 00 40 69 41 00 01 00 00 00  .iA.diA.@iA.....
+  00416C80: 00 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00  ................
+  00416C90: 01 00 00 00 53 74 61 63 6B 20 61 72 6F 75 6E 64  ....Stack around
+  00416CA0: 20 74 68 65 20 76 61 72 69 61 62 6C 65 20 27 00   the variable '.
+  00416CB0: 27 20 77 61 73 20 63 6F 72 72 75 70 74 65 64 2E  ' was corrupted.
+  00416CC0: 00 00 00 00 54 68 65 20 76 61 72 69 61 62 6C 65  ....The variable
+  00416CD0: 20 27 00 00 27 20 69 73 20 62 65 69 6E 67 20 75   '..' is being u
+  00416CE0: 73 65 64 20 77 69 74 68 6F 75 74 20 62 65 69 6E  sed without bein
+  00416CF0: 67 20 69 6E 69 74 69 61 6C 69 7A 65 64 2E 00 00  g initialized...
+  00416D00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416D10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416D20: 52 75 6E 2D 54 69 6D 65 20 43 68 65 63 6B 20 46  Run-Time Check F
+  00416D30: 61 69 6C 75 72 65 20 23 25 64 20 2D 20 25 73 00  ailure #%d - %s.
+  00416D40: 00 00 00 00 00 00 00 00 55 6E 6B 6E 6F 77 6E 20  ........Unknown 
+  00416D50: 4D 6F 64 75 6C 65 20 4E 61 6D 65 00 00 00 00 00  Module Name.....
+  00416D60: 55 6E 6B 6E 6F 77 6E 20 46 69 6C 65 6E 61 6D 65  Unknown Filename
+  00416D70: 00 00 00 00 00 00 00 00 52 00 75 00 6E 00 2D 00  ........R.u.n.-.
+  00416D80: 54 00 69 00 6D 00 65 00 20 00 43 00 68 00 65 00  T.i.m.e. .C.h.e.
+  00416D90: 63 00 6B 00 20 00 46 00 61 00 69 00 6C 00 75 00  c.k. .F.a.i.l.u.
+  00416DA0: 72 00 65 00 20 00 23 00 25 00 64 00 20 00 2D 00  r.e. .#.%.d. .-.
+  00416DB0: 20 00 25 00 73 00 00 00 00 00 00 00 00 00 00 00   .%.s...........
+  00416DC0: 00 00 00 00 00 00 00 00 52 00 75 00 6E 00 74 00  ........R.u.n.t.
+  00416DD0: 69 00 6D 00 65 00 20 00 43 00 68 00 65 00 63 00  i.m.e. .C.h.e.c.
+  00416DE0: 6B 00 20 00 45 00 72 00 72 00 6F 00 72 00 2E 00  k. .E.r.r.o.r...
+  00416DF0: 0A 00 0D 00 20 00 55 00 6E 00 61 00 62 00 6C 00  .... .U.n.a.b.l.
+  00416E00: 65 00 20 00 74 00 6F 00 20 00 64 00 69 00 73 00  e. .t.o. .d.i.s.
+  00416E10: 70 00 6C 00 61 00 79 00 20 00 52 00 54 00 43 00  p.l.a.y. .R.T.C.
+  00416E20: 20 00 4D 00 65 00 73 00 73 00 61 00 67 00 65 00   .M.e.s.s.a.g.e.
+  00416E30: 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416E40: 00 00 00 00 00 00 00 00 00 00 00 00 53 74 61 63  ............Stac
+  00416E50: 6B 20 63 6F 72 72 75 70 74 65 64 20 6E 65 61 72  k corrupted near
+  00416E60: 20 75 6E 6B 6E 6F 77 6E 20 76 61 72 69 61 62 6C   unknown variabl
+  00416E70: 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  e...............
+  00416E80: 53 74 61 63 6B 20 61 72 65 61 20 61 72 6F 75 6E  Stack area aroun
+  00416E90: 64 20 5F 61 6C 6C 6F 63 61 20 6D 65 6D 6F 72 79  d _alloca memory
+  00416EA0: 20 72 65 73 65 72 76 65 64 20 62 79 20 74 68 69   reserved by thi
+  00416EB0: 73 20 66 75 6E 63 74 69 6F 6E 20 69 73 20 63 6F  s function is co
+  00416EC0: 72 72 75 70 74 65 64 0A 00 00 00 00 00 00 00 00  rrupted.........
+  00416ED0: 00 00 00 00 00 00 00 00 25 73 25 73 25 73 25 73  ........%s%s%s%s
+  00416EE0: 00 00 00 00 3E 20 00 00 0A 00 00 00 25 73 25 73  ....> ......%s%s
+  00416EF0: 25 70 25 73 25 6C 64 25 73 25 64 25 73 00 00 00  %p%s%ld%s%d%s...
+  00416F00: 00 00 00 00 00 00 00 00 53 74 61 63 6B 20 61 72  ........Stack ar
+  00416F10: 65 61 20 61 72 6F 75 6E 64 20 5F 61 6C 6C 6F 63  ea around _alloc
+  00416F20: 61 20 6D 65 6D 6F 72 79 20 72 65 73 65 72 76 65  a memory reserve
+  00416F30: 64 20 62 79 20 74 68 69 73 20 66 75 6E 63 74 69  d by this functi
+  00416F40: 6F 6E 20 69 73 20 63 6F 72 72 75 70 74 65 64 00  on is corrupted.
+  00416F50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00416F60: 0A 41 64 64 72 65 73 73 3A 20 30 78 00 00 00 00  .Address: 0x....
+  00416F70: 0A 53 69 7A 65 3A 20 00 00 00 00 00 0A 41 6C 6C  .Size: ......All
+  00416F80: 6F 63 61 74 69 6F 6E 20 6E 75 6D 62 65 72 20 77  ocation number w
+  00416F90: 69 74 68 69 6E 20 74 68 69 73 20 66 75 6E 63 74  ithin this funct
+  00416FA0: 69 6F 6E 3A 20 00 00 00 00 00 00 00 00 00 00 00  ion: ...........
+  00416FB0: 0A 44 61 74 61 3A 20 3C 00 00 00 00 77 73 70 72  .Data: <....wspr
+  00416FC0: 69 6E 74 66 41 00 00 00 75 00 73 00 65 00 72 00  intfA...u.s.e.r.
+  00416FD0: 33 00 32 00 2E 00 64 00 6C 00 6C 00 00 00 00 00  3.2...d.l.l.....
+  00416FE0: 00 00 00 00 25 2E 32 58 20 00 00 00 41 20 76 61  ....%.2X ...A va
+  00416FF0: 72 69 61 62 6C 65 20 69 73 20 62 65 69 6E 67 20  riable is being 
+  00417000: 75 73 65 64 20 77 69 74 68 6F 75 74 20 62 65 69  used without bei
+  00417010: 6E 67 20 69 6E 69 74 69 61 6C 69 7A 65 64 2E 00  ng initialized..
+  00417020: 00 00 00 00 00 00 00 00 00 00 00 00 53 74 61 63  ............Stac
+  00417030: 6B 20 61 72 6F 75 6E 64 20 5F 61 6C 6C 6F 63 61  k around _alloca
+  00417040: 20 63 6F 72 72 75 70 74 65 64 00 00 00 00 00 00   corrupted......
+  00417050: 00 00 00 00 4C 6F 63 61 6C 20 76 61 72 69 61 62  ....Local variab
+  00417060: 6C 65 20 75 73 65 64 20 62 65 66 6F 72 65 20 69  le used before i
+  00417070: 6E 69 74 69 61 6C 69 7A 61 74 69 6F 6E 00 00 00  nitialization...
+  00417080: 00 00 00 00 00 00 00 00 53 74 61 63 6B 20 6D 65  ........Stack me
+  00417090: 6D 6F 72 79 20 63 6F 72 72 75 70 74 69 6F 6E 00  mory corruption.
+  004170A0: 00 00 00 00 43 61 73 74 20 74 6F 20 73 6D 61 6C  ....Cast to smal
+  004170B0: 6C 65 72 20 74 79 70 65 20 63 61 75 73 69 6E 67  ler type causing
+  004170C0: 20 6C 6F 73 73 20 6F 66 20 64 61 74 61 00 00 00   loss of data...
+  004170D0: 00 00 00 00 00 00 00 00 53 74 61 63 6B 20 70 6F  ........Stack po
+  004170E0: 69 6E 74 65 72 20 63 6F 72 72 75 70 74 69 6F 6E  inter corruption
+  004170F0: 00 00 00 00 00 00 00 00 D8 70 41 00 A4 70 41 00  ........ьpA.╓pA.
+  00417100: 88 70 41 00 54 70 41 00 2C 70 41 00 00 00 00 00  .pA.TpA.,pA.....
+  00417110: 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00  ................
+  00417120: 04 00 00 00 00 00 00 00 5F 00 63 00 6F 00 6E 00  ........_.c.o.n.
+  00417130: 74 00 72 00 6F 00 6C 00 66 00 70 00 5F 00 73 00  t.r.o.l.f.p._.s.
+  00417140: 28 00 28 00 28 00 76 00 6F 00 69 00 64 00 20 00  (.(.(.v.o.i.d. .
+  00417150: 2A 00 29 00 30 00 29 00 2C 00 20 00 30 00 78 00  *.).0.).,. .0.x.
+  00417160: 30 00 30 00 30 00 31 00 30 00 30 00 30 00 30 00  0.0.0.1.0.0.0.0.
+  00417170: 2C 00 20 00 30 00 78 00 30 00 30 00 30 00 33 00  ,. .0.x.0.0.0.3.
+  00417180: 30 00 30 00 30 00 30 00 29 00 00 00 00 00 00 00  0.0.0.0.).......
+  00417190: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004171A0: 5F 00 73 00 65 00 74 00 64 00 65 00 66 00 61 00  _.s.e.t.d.e.f.a.
+  004171B0: 75 00 6C 00 74 00 70 00 72 00 65 00 63 00 69 00  u.l.t.p.r.e.c.i.
+  004171C0: 73 00 69 00 6F 00 6E 00 00 00 00 00 00 00 00 00  s.i.o.n.........
+  004171D0: 00 00 00 00 00 00 00 00 66 00 3A 00 5C 00 64 00  ........f.:.\.d.
+  004171E0: 64 00 5C 00 76 00 63 00 74 00 6F 00 6F 00 6C 00  d.\.v.c.t.o.o.l.
+  004171F0: 73 00 5C 00 63 00 72 00 74 00 5F 00 62 00 6C 00  s.\.c.r.t._.b.l.
+  00417200: 64 00 5C 00 73 00 65 00 6C 00 66 00 5F 00 78 00  d.\.s.e.l.f._.x.
+  00417210: 38 00 36 00 5C 00 63 00 72 00 74 00 5C 00 73 00  8.6.\.c.r.t.\.s.
+  00417220: 72 00 63 00 5C 00 69 00 6E 00 74 00 65 00 6C 00  r.c.\.i.n.t.e.l.
+  00417230: 5C 00 66 00 70 00 38 00 2E 00 63 00 00 00 00 00  \.f.p.8...c.....
+  00417240: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417250: 00 00 00 00 4D 00 53 00 50 00 44 00 42 00 31 00  ....M.S.P.D.B.1.
+  00417260: 30 00 30 00 2E 00 44 00 4C 00 4C 00 00 00 00 00  0.0...D.L.L.....
+  00417270: 4D 00 53 00 56 00 43 00 52 00 31 00 30 00 30 00  M.S.V.C.R.1.0.0.
+  00417280: 44 00 2E 00 64 00 6C 00 6C 00 00 00 00 00 00 00  D...d.l.l.......
+  00417290: 00 00 00 00 00 00 00 00 72 00 00 00 50 44 42 4F  ........r...PDBO
+  004172A0: 70 65 6E 56 61 6C 69 64 61 74 65 35 00 00 00 00  penValidate5....
+  004172B0: 45 00 6E 00 76 00 69 00 72 00 6F 00 6E 00 6D 00  E.n.v.i.r.o.n.m.
+  004172C0: 65 00 6E 00 74 00 44 00 69 00 72 00 65 00 63 00  e.n.t.D.i.r.e.c.
+  004172D0: 74 00 6F 00 72 00 79 00 00 00 00 00 00 00 00 00  t.o.r.y.........
+  004172E0: 00 00 00 00 00 00 00 00 53 00 4F 00 46 00 54 00  ........S.O.F.T.
+  004172F0: 57 00 41 00 52 00 45 00 5C 00 4D 00 69 00 63 00  W.A.R.E.\.M.i.c.
+  00417300: 72 00 6F 00 73 00 6F 00 66 00 74 00 5C 00 56 00  r.o.s.o.f.t.\.V.
+  00417310: 69 00 73 00 75 00 61 00 6C 00 53 00 74 00 75 00  i.s.u.a.l.S.t.u.
+  00417320: 64 00 69 00 6F 00 5C 00 31 00 30 00 2E 00 30 00  d.i.o.\.1.0...0.
+  00417330: 5C 00 53 00 65 00 74 00 75 00 70 00 5C 00 56 00  \.S.e.t.u.p.\.V.
+  00417340: 53 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  S...............
+  00417350: 00 00 00 00 00 00 00 00 52 65 67 43 6C 6F 73 65  ........RegClose
+  00417360: 4B 65 79 00 00 00 00 00 52 65 67 51 75 65 72 79  Key.....RegQuery
+  00417370: 56 61 6C 75 65 45 78 57 00 00 00 00 52 65 67 4F  ValueExW....RegO
+  00417380: 70 65 6E 4B 65 79 45 78 57 00 00 00 41 00 44 00  penKeyExW...A.D.
+  00417390: 56 00 41 00 50 00 49 00 33 00 32 00 2E 00 44 00  V.A.P.I.3.2...D.
+  004173A0: 4C 00 4C 00 00 00 00 00 00 00 00 00 44 00 4C 00  L.L.........D.L.
+  004173B0: 4C 00 00 00 00 00 00 00 4D 00 53 00 50 00 44 00  L.......M.S.P.D.
+  004173C0: 42 00 31 00 30 00 30 00 00 00 00 00 00 00 00 00  B.1.0.0.........
+  004173D0: 90 81 41 00 E8 81 41 00 00 00 00 00 00 00 00 00  ..A.Х.A.........
+  004173E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004173F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417400: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417410: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417420: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417430: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417440: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417450: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417460: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417470: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417480: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417490: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004174A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004174B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004174C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004174D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004174E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004174F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417500: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417510: 52 53 44 53 AE 9F DE 3E 94 1E 22 47 BD FA A7 E0  RSDS╝.ч>.."G╫З╖Ю
+  00417520: C0 96 5A 51 06 00 00 00 43 3A 5C 44 61 74 61 5C  ю.ZQ....C:\Data\
+  00417530: 4E 43 43 5C 21 43 6F 64 65 5C 46 69 72 73 74 43  NCC\!Code\FirstC
+  00417540: 61 6C 6C 65 72 5C 57 69 6E 64 6F 77 73 50 45 4E  aller\WindowsPEN
+  00417550: 61 74 69 76 65 5C 44 65 62 75 67 5C 57 69 6E 64  ative\Debug\Wind
+  00417560: 6F 77 73 50 45 4E 61 74 69 76 65 2E 70 64 62 00  owsPENative.pdb.
+  00417570: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417580: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417590: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004175A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004175B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004175C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004175D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004175E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004175F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417600: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417610: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417620: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417630: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417640: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417650: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417660: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417670: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417680: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417690: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004176A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004176B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004176C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004176D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004176E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004176F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417700: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417710: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417720: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417730: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417740: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417750: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417760: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417770: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417780: 00 00 00 00 00 00 00 00 CD 10 41 00 00 00 00 00  ........м.A.....
+  00417790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004177A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004177B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004177C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004177D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004177E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004177F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417800: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417810: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417820: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417830: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417840: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417850: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417860: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417870: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417880: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417890: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004178A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004178B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004178C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004178D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004178E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004178F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417900: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417910: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417920: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417930: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417940: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417950: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417960: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417970: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417980: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417990: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004179A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004179B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004179C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004179D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004179E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004179F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417A90: 00 00 00 00 B4 10 41 00 00 00 00 00 00 00 00 00  ....╢.A.........
+  00417AA0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417AB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417AC0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417AD0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417AE0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417AF0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417B90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417BA0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417BB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417BC0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417BD0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417BE0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417BF0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417C90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417CA0: FE FF FF FF 00 00 00 00 C4 FF FF FF 00 00 00 00  ЧЪЪЪ....дЪЪЪ....
+  00417CB0: FE FF FF FF 84 1A 41 00 9F 1A 41 00 00 00 00 00  ЧЪЪЪ..A...A.....
+  00417CC0: FE FF FF FF 00 00 00 00 BC FF FF FF 00 00 00 00  ЧЪЪЪ....╪ЪЪЪ....
+  00417CD0: FE FF FF FF A4 1F 41 00 AA 1F 41 00 00 00 00 00  ЧЪЪЪ╓.A.╙.A.....
+  00417CE0: FE FF FF FF 00 00 00 00 BC FF FF FF 00 00 00 00  ЧЪЪЪ....╪ЪЪЪ....
+  00417CF0: FE FF FF FF 66 20 41 00 6C 20 41 00 00 00 00 00  ЧЪЪЪf A.l A.....
+  00417D00: FE FF FF FF 00 00 00 00 CC FF FF FF 00 00 00 00  ЧЪЪЪ....лЪЪЪ....
+  00417D10: FE FF FF FF 00 00 00 00 A3 28 41 00 00 00 00 00  ЧЪЪЪ....ё(A.....
+  00417D20: FE FF FF FF 00 00 00 00 B8 FF FF FF 00 00 00 00  ЧЪЪЪ....╦ЪЪЪ....
+  00417D30: FE FF FF FF 69 2C 41 00 83 2C 41 00 00 00 00 00  ЧЪЪЪi,A..,A.....
+  00417D40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417D50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417D60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417D70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417D80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417D90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417DA0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417DB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417DC0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417DD0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417DE0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417DF0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417E00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417E10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417E20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417E30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417E40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00417E50: 00                                               .
+
+  Debug Directories
+
+        Time Type       Size      RVA  Pointer
+    -------- ------ -------- -------- --------
+    51C93F0C cv           60 00017510     6110    Format: RSDS, {3EDE9FAE-1E94-4722-BDFA-A7E0C0965A51}, 6, C:\Data\NCC\!Code\FirstCaller\WindowsPENative\Debug\WindowsPENative.pdb
+
+SECTION HEADER #4
+   .data name
+     584 virtual size
+   18000 virtual address (00418000 to 00418583)
+     200 size of raw data
+    6C00 file pointer to raw data (00006C00 to 00006DFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000040 flags
+         Initialized Data
+         Read Write
+
+RAW DATA #4
+  00418000: 01 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00  ................
+  00418010: 01 00 00 00 00 00 00 00 FE FF FF FF 01 00 00 00  ........ЧЪЪЪ....
+  00418020: FF FF FF FF FF FF FF FF 00 00 00 00 4E E6 40 BB  ЪЪЪЪЪЪЪЪ....NФ@╩
+  00418030: B1 19 BF 44 00 00 00 00 00 00 00 00 00 00 00 00  ╠.©D............
+  00418040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004180A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004180B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004180C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004180D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004180E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004180F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418110: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418120: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418130: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418140: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418150: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418160: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418170: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00418190: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004181A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004181B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004181C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004181D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004181E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004181F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+
+SECTION HEADER #5
+  .idata name
+     8BE virtual size
+   19000 virtual address (00419000 to 004198BD)
+     A00 size of raw data
+    6E00 file pointer to raw data (00006E00 to 000077FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000040 flags
+         Initialized Data
+         Read Write
+
+RAW DATA #5
+  00419000: F0 90 01 00 00 00 00 00 00 00 00 00 4C 93 01 00  П...........L...
+  00419010: 68 92 01 00 3C 90 01 00 00 00 00 00 00 00 00 00  h...<...........
+  00419020: 46 97 01 00 B4 91 01 00 00 00 00 00 00 00 00 00  F...╢...........
+  00419030: 00 00 00 00 00 00 00 00 00 00 00 00 16 97 01 00  ................
+  00419040: 02 97 01 00 F4 96 01 00 E0 96 01 00 D0 96 01 00  ....Т...Ю...п...
+  00419050: BA 96 01 00 A8 96 01 00 9C 96 01 00 90 96 01 00  ╨...╗...........
+  00419060: 76 96 01 00 60 96 01 00 4A 96 01 00 3A 96 01 00  v...`...J...:...
+  00419070: 20 96 01 00 10 96 01 00 F2 95 01 00 E2 95 01 00   .......Р...Б...
+  00419080: D0 95 01 00 C4 95 01 00 B2 95 01 00 9C 95 01 00  п...д...╡.......
+  00419090: 88 95 01 00 72 95 01 00 5C 95 01 00 3E 95 01 00  ....r...\...>...
+  004190A0: 36 95 01 00 20 95 01 00 10 95 01 00 2A 97 01 00  6... .......*...
+  004190B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004190C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004190D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004190E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004190F0: DE 94 01 00 CE 94 01 00 FA 94 01 00 B4 94 01 00  ч...н...З...╢...
+  00419100: AA 94 01 00 A2 94 01 00 94 94 01 00 8A 94 01 00  ╙...╒...........
+  00419110: 78 94 01 00 68 94 01 00 54 94 01 00 46 94 01 00  x...h...T...F...
+  00419120: 3A 94 01 00 28 94 01 00 14 94 01 00 06 94 01 00  :...(...........
+  00419130: FE 93 01 00 F4 93 01 00 E6 93 01 00 DE 93 01 00  Ч...Т...Ф...ч...
+  00419140: CC 93 01 00 BE 93 01 00 AC 93 01 00 A2 93 01 00  л...╬...╛...╒...
+  00419150: 96 93 01 00 82 93 01 00 6C 93 01 00 5A 93 01 00  ........l...Z...
+  00419160: 3E 93 01 00 34 93 01 00 EA 94 01 00 2C 93 01 00  >...4...Й...,...
+  00419170: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419190: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004191A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004191B0: 00 00 00 00 16 97 01 00 02 97 01 00 F4 96 01 00  ............Т...
+  004191C0: E0 96 01 00 D0 96 01 00 BA 96 01 00 A8 96 01 00  Ю...п...╨...╗...
+  004191D0: 9C 96 01 00 90 96 01 00 76 96 01 00 60 96 01 00  ........v...`...
+  004191E0: 4A 96 01 00 3A 96 01 00 20 96 01 00 10 96 01 00  J...:... .......
+  004191F0: F2 95 01 00 E2 95 01 00 D0 95 01 00 C4 95 01 00  Р...Б...п...д...
+  00419200: B2 95 01 00 9C 95 01 00 88 95 01 00 72 95 01 00  ╡...........r...
+  00419210: 5C 95 01 00 3E 95 01 00 36 95 01 00 20 95 01 00  \...>...6... ...
+  00419220: 10 95 01 00 2A 97 01 00 00 00 00 00 00 00 00 00  ....*...........
+  00419230: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419240: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419250: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419260: 00 00 00 00 00 00 00 00 DE 94 01 00 CE 94 01 00  ........ч...н...
+  00419270: FA 94 01 00 B4 94 01 00 AA 94 01 00 A2 94 01 00  З...╢...╙...╒...
+  00419280: 94 94 01 00 8A 94 01 00 78 94 01 00 68 94 01 00  ........x...h...
+  00419290: 54 94 01 00 46 94 01 00 3A 94 01 00 28 94 01 00  T...F...:...(...
+  004192A0: 14 94 01 00 06 94 01 00 FE 93 01 00 F4 93 01 00  ........Ч...Т...
+  004192B0: E6 93 01 00 DE 93 01 00 CC 93 01 00 BE 93 01 00  Ф...ч...л...╬...
+  004192C0: AC 93 01 00 A2 93 01 00 96 93 01 00 82 93 01 00  ╛...╒...........
+  004192D0: 6C 93 01 00 5A 93 01 00 3E 93 01 00 34 93 01 00  l...Z...>...4...
+  004192E0: EA 94 01 00 2C 93 01 00 00 00 00 00 00 00 00 00  Й...,...........
+  004192F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419300: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419310: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419320: 00 00 00 00 00 00 00 00 00 00 00 00 22 06 72 61  ............".ra
+  00419330: 6E 64 00 00 C4 05 66 70 72 69 6E 74 66 00 87 01  nd..д.fprintf...
+  00419340: 5F 5F 69 6F 62 5F 66 75 6E 63 00 00 4D 53 56 43  __iob_func..MSVC
+  00419350: 52 31 30 30 44 2E 64 6C 6C 00 21 01 5F 43 52 54  R100D.dll.!._CRT
+  00419360: 5F 52 54 43 5F 49 4E 49 54 57 00 00 1B 02 5F 63  _RTC_INITW...._c
+  00419370: 6F 6E 66 69 67 74 68 72 65 61 64 6C 6F 63 61 6C  onfigthreadlocal
+  00419380: 65 00 C7 01 5F 5F 73 65 74 75 73 65 72 6D 61 74  e.г.__setusermat
+  00419390: 68 65 72 72 00 00 1A 02 5F 63 6F 6D 6D 6F 64 65  herr...._commode
+  004193A0: 00 00 79 02 5F 66 6D 6F 64 65 00 00 C4 01 5F 5F  ..y._fmode..д.__
+  004193B0: 73 65 74 5F 61 70 70 5F 74 79 70 65 00 00 F2 01  set_app_type..Р.
+  004193C0: 5F 61 6D 73 67 5F 65 78 69 74 00 00 DB 01 5F 5F  _amsg_exit..ш.__
+  004193D0: 77 67 65 74 6D 61 69 6E 61 72 67 73 00 00 5D 02  wgetmainargs..].
+  004193E0: 5F 65 78 69 74 00 4F 01 5F 58 63 70 74 46 69 6C  _exit.O._XcptFil
+  004193F0: 74 65 72 00 09 02 5F 63 65 78 69 74 00 00 B4 05  ter..._cexit..╢.
+  00419400: 65 78 69 74 00 00 DC 01 5F 5F 77 69 6E 69 74 65  exit..э.__winite
+  00419410: 6E 76 00 00 37 01 5F 43 72 74 53 65 74 43 68 65  nv..7._CrtSetChe
+  00419420: 63 6B 43 6F 75 6E 74 00 26 01 5F 43 72 74 44 62  ckCount.&._CrtDb
+  00419430: 67 52 65 70 6F 72 74 57 00 00 E9 02 5F 69 6E 69  gReportW..И._ini
+  00419440: 74 74 65 72 6D 00 EA 02 5F 69 6E 69 74 74 65 72  tterm.Й._initter
+  00419450: 6D 5F 65 00 04 01 3F 74 65 72 6D 69 6E 61 74 65  m_e...?terminate
+  00419460: 40 40 59 41 58 58 5A 00 1E 02 5F 63 6F 6E 74 72  @@YAXXZ..._contr
+  00419470: 6F 6C 66 70 5F 73 00 00 EF 02 5F 69 6E 76 6F 6B  olfp_s..О._invok
+  00419480: 65 5F 77 61 74 73 6F 6E 00 00 C8 04 5F 75 6E 6C  e_watson..х._unl
+  00419490: 6F 63 6B 00 7D 01 5F 5F 64 6C 6C 6F 6E 65 78 69  ock.}.__dllonexi
+  004194A0: 74 00 5A 03 5F 6C 6F 63 6B 00 02 04 5F 6F 6E 65  t.Z._lock..._one
+  004194B0: 78 69 74 00 54 02 5F 65 78 63 65 70 74 5F 68 61  xit.T._except_ha
+  004194C0: 6E 64 6C 65 72 34 5F 63 6F 6D 6D 6F 6E 00 5F 05  ndler4_common._.
+  004194D0: 5F 77 6D 61 6B 65 70 61 74 68 5F 73 00 00 75 06  _wmakepath_s..u.
+  004194E0: 77 63 73 63 70 79 5F 73 00 00 81 05 5F 77 73 70  wcscpy_s...._wsp
+  004194F0: 6C 69 74 70 61 74 68 5F 73 00 2D 02 5F 63 72 74  litpath_s.-._crt
+  00419500: 5F 64 65 62 75 67 67 65 72 5F 68 6F 6F 6B 00 00  _debugger_hook..
+  00419510: EA 00 45 6E 63 6F 64 65 50 6F 69 6E 74 65 72 00  Й.EncodePointer.
+  00419520: EC 02 49 6E 74 65 72 6C 6F 63 6B 65 64 45 78 63  Л.InterlockedExc
+  00419530: 68 61 6E 67 65 00 B2 04 53 6C 65 65 70 00 E9 02  hange.╡.Sleep.И.
+  00419540: 49 6E 74 65 72 6C 6F 63 6B 65 64 43 6F 6D 70 61  InterlockedCompa
+  00419550: 72 65 45 78 63 68 61 6E 67 65 00 00 D3 02 48 65  reExchange..с.He
+  00419560: 61 70 53 65 74 49 6E 66 6F 72 6D 61 74 69 6F 6E  apSetInformation
+  00419570: 00 00 11 05 57 69 64 65 43 68 61 72 54 6F 4D 75  ....WideCharToMu
+  00419580: 6C 74 69 42 79 74 65 00 00 03 49 73 44 65 62 75  ltiByte...IsDebu
+  00419590: 67 67 65 72 50 72 65 73 65 6E 74 00 67 03 4D 75  ggerPresent.g.Mu
+  004195A0: 6C 74 69 42 79 74 65 54 6F 57 69 64 65 43 68 61  ltiByteToWideCha
+  004195B0: 72 00 B1 03 52 61 69 73 65 45 78 63 65 70 74 69  r.╠.RaiseExcepti
+  004195C0: 6F 6E 00 00 4D 05 6C 73 74 72 6C 65 6E 41 00 00  on..M.lstrlenA..
+  004195D0: 45 02 47 65 74 50 72 6F 63 41 64 64 72 65 73 73  E.GetProcAddress
+  004195E0: 00 00 3F 03 4C 6F 61 64 4C 69 62 72 61 72 79 57  ..?.LoadLibraryW
+  004195F0: 00 00 A5 04 53 65 74 55 6E 68 61 6E 64 6C 65 64  ..╔.SetUnhandled
+  00419600: 45 78 63 65 70 74 69 6F 6E 46 69 6C 74 65 72 00  ExceptionFilter.
+  00419610: CA 00 44 65 63 6F 64 65 50 6F 69 6E 74 65 72 00  й.DecodePointer.
+  00419620: A7 03 51 75 65 72 79 50 65 72 66 6F 72 6D 61 6E  ╖.QueryPerforman
+  00419630: 63 65 43 6F 75 6E 74 65 72 00 93 02 47 65 74 54  ceCounter...GetT
+  00419640: 69 63 6B 43 6F 75 6E 74 00 00 C5 01 47 65 74 43  ickCount..е.GetC
+  00419650: 75 72 72 65 6E 74 54 68 72 65 61 64 49 64 00 00  urrentThreadId..
+  00419660: C1 01 47 65 74 43 75 72 72 65 6E 74 50 72 6F 63  а.GetCurrentProc
+  00419670: 65 73 73 49 64 00 79 02 47 65 74 53 79 73 74 65  essId.y.GetSyste
+  00419680: 6D 54 69 6D 65 41 73 46 69 6C 65 54 69 6D 65 00  mTimeAsFileTime.
+  00419690: CF 02 48 65 61 70 46 72 65 65 00 00 CB 02 48 65  о.HeapFree..к.He
+  004196A0: 61 70 41 6C 6C 6F 63 00 4A 02 47 65 74 50 72 6F  apAlloc.J.GetPro
+  004196B0: 63 65 73 73 48 65 61 70 00 00 14 02 47 65 74 4D  cessHeap....GetM
+  004196C0: 6F 64 75 6C 65 46 69 6C 65 4E 61 6D 65 57 00 00  oduleFileNameW..
+  004196D0: F1 04 56 69 72 74 75 61 6C 51 75 65 72 79 00 00  Я.VirtualQuery..
+  004196E0: 18 02 47 65 74 4D 6F 64 75 6C 65 48 61 6E 64 6C  ..GetModuleHandl
+  004196F0: 65 57 00 00 62 01 46 72 65 65 4C 69 62 72 61 72  eW..b.FreeLibrar
+  00419700: 79 00 C0 04 54 65 72 6D 69 6E 61 74 65 50 72 6F  y.ю.TerminatePro
+  00419710: 63 65 73 73 00 00 C0 01 47 65 74 43 75 72 72 65  cess..ю.GetCurre
+  00419720: 6E 74 50 72 6F 63 65 73 73 00 D3 04 55 6E 68 61  ntProcess.с.Unha
+  00419730: 6E 64 6C 65 64 45 78 63 65 70 74 69 6F 6E 46 69  ndledExceptionFi
+  00419740: 6C 74 65 72 00 00 4B 45 52 4E 45 4C 33 32 2E 64  lter..KERNEL32.d
+  00419750: 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ll..............
+  00419760: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419770: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419780: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004197A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004197B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004197C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004197D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004197E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004197F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419800: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419810: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419820: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419830: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419840: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419850: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419860: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419870: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419880: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00419890: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004198A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004198B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00        ..............
+
+  Section contains the following imports:
+
+    MSVCR100D.dll
+                419268 Import Address Table
+                4190F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  675 wcscpy_s
+                  55F _wmakepath_s
+                  22D _crt_debugger_hook
+                  254 _except_handler4_common
+                  402 _onexit
+                  35A _lock
+                  17D __dllonexit
+                  4C8 _unlock
+                  2EF _invoke_watson
+                  21E _controlfp_s
+                  104 ?terminate@@YAXXZ
+                  2EA _initterm_e
+                  2E9 _initterm
+                  126 _CrtDbgReportW
+                  137 _CrtSetCheckCount
+                  1DC __winitenv
+                  5B4 exit
+                  209 _cexit
+                  14F _XcptFilter
+                  25D _exit
+                  1DB __wgetmainargs
+                  1F2 _amsg_exit
+                  1C4 __set_app_type
+                  279 _fmode
+                  21A _commode
+                  1C7 __setusermatherr
+                  21B _configthreadlocale
+                  121 _CRT_RTC_INITW
+                  187 __iob_func
+                  5C4 fprintf
+                  581 _wsplitpath_s
+                  622 rand
+
+    KERNEL32.dll
+                4191B4 Import Address Table
+                41903C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  1C0 GetCurrentProcess
+                  4C0 TerminateProcess
+                  162 FreeLibrary
+                  218 GetModuleHandleW
+                  4F1 VirtualQuery
+                  214 GetModuleFileNameW
+                  24A GetProcessHeap
+                  2CB HeapAlloc
+                  2CF HeapFree
+                  279 GetSystemTimeAsFileTime
+                  1C1 GetCurrentProcessId
+                  1C5 GetCurrentThreadId
+                  293 GetTickCount
+                  3A7 QueryPerformanceCounter
+                   CA DecodePointer
+                  4A5 SetUnhandledExceptionFilter
+                  33F LoadLibraryW
+                  245 GetProcAddress
+                  54D lstrlenA
+                  3B1 RaiseException
+                  367 MultiByteToWideChar
+                  300 IsDebuggerPresent
+                  511 WideCharToMultiByte
+                  2D3 HeapSetInformation
+                  2E9 InterlockedCompareExchange
+                  4B2 Sleep
+                  2EC InterlockedExchange
+                   EA EncodePointer
+                  4D3 UnhandledExceptionFilter
+
+SECTION HEADER #6
+   .rsrc name
+     459 virtual size
+   1A000 virtual address (0041A000 to 0041A458)
+     600 size of raw data
+    7800 file pointer to raw data (00007800 to 00007DFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+RAW DATA #6
+  0041A000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00  ................
+  0041A010: 18 00 00 00 18 00 00 80 00 00 00 00 00 00 00 00  ................
+  0041A020: 00 00 00 00 00 00 01 00 01 00 00 00 30 00 00 80  ............0...
+  0041A030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00  ................
+  0041A040: 09 04 00 00 48 00 00 00 70 A1 01 00 96 01 00 00  ....H...p║......
+  0041A050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A0A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A0B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A0C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A0D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A0E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A0F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A110: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A120: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A130: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A140: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A150: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A160: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A170: EF BB BF 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E  О╩©<?xml version
+  0041A180: 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D  ="1.0" encoding=
+  0041A190: 22 55 54 46 2D 38 22 20 73 74 61 6E 64 61 6C 6F  "UTF-8" standalo
+  0041A1A0: 6E 65 3D 22 79 65 73 22 3F 3E 0D 0A 3C 61 73 73  ne="yes"?>..<ass
+  0041A1B0: 65 6D 62 6C 79 20 78 6D 6C 6E 73 3D 22 75 72 6E  embly xmlns="urn
+  0041A1C0: 3A 73 63 68 65 6D 61 73 2D 6D 69 63 72 6F 73 6F  :schemas-microso
+  0041A1D0: 66 74 2D 63 6F 6D 3A 61 73 6D 2E 76 31 22 20 6D  ft-com:asm.v1" m
+  0041A1E0: 61 6E 69 66 65 73 74 56 65 72 73 69 6F 6E 3D 22  anifestVersion="
+  0041A1F0: 31 2E 30 22 3E 0D 0A 20 20 3C 74 72 75 73 74 49  1.0">..  <trustI
+  0041A200: 6E 66 6F 20 78 6D 6C 6E 73 3D 22 75 72 6E 3A 73  nfo xmlns="urn:s
+  0041A210: 63 68 65 6D 61 73 2D 6D 69 63 72 6F 73 6F 66 74  chemas-microsoft
+  0041A220: 2D 63 6F 6D 3A 61 73 6D 2E 76 33 22 3E 0D 0A 20  -com:asm.v3">.. 
+  0041A230: 20 20 20 3C 73 65 63 75 72 69 74 79 3E 0D 0A 20     <security>.. 
+  0041A240: 20 20 20 20 20 3C 72 65 71 75 65 73 74 65 64 50       <requestedP
+  0041A250: 72 69 76 69 6C 65 67 65 73 3E 0D 0A 20 20 20 20  rivileges>..    
+  0041A260: 20 20 20 20 3C 72 65 71 75 65 73 74 65 64 45 78      <requestedEx
+  0041A270: 65 63 75 74 69 6F 6E 4C 65 76 65 6C 20 6C 65 76  ecutionLevel lev
+  0041A280: 65 6C 3D 22 61 73 49 6E 76 6F 6B 65 72 22 20 75  el="asInvoker" u
+  0041A290: 69 41 63 63 65 73 73 3D 22 66 61 6C 73 65 22 3E  iAccess="false">
+  0041A2A0: 3C 2F 72 65 71 75 65 73 74 65 64 45 78 65 63 75  </requestedExecu
+  0041A2B0: 74 69 6F 6E 4C 65 76 65 6C 3E 0D 0A 20 20 20 20  tionLevel>..    
+  0041A2C0: 20 20 3C 2F 72 65 71 75 65 73 74 65 64 50 72 69    </requestedPri
+  0041A2D0: 76 69 6C 65 67 65 73 3E 0D 0A 20 20 20 20 3C 2F  vileges>..    </
+  0041A2E0: 73 65 63 75 72 69 74 79 3E 0D 0A 20 20 3C 2F 74  security>..  </t
+  0041A2F0: 72 75 73 74 49 6E 66 6F 3E 0D 0A 3C 2F 61 73 73  rustInfo>..</ass
+  0041A300: 65 6D 62 6C 79 3E 00 00 00 00 00 00 00 00 00 00  embly>..........
+  0041A310: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A320: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A330: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A340: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A350: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A360: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A370: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A380: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A390: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A3A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A3B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A3C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A3D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A3E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A3F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A400: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A410: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A420: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A430: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A440: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041A450: 00 00 00 00 00 00 00 00 00                       .........
+
+SECTION HEADER #7
+  .reloc name
+     486 virtual size
+   1B000 virtual address (0041B000 to 0041B485)
+     600 size of raw data
+    7E00 file pointer to raw data (00007E00 to 000083FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+RAW DATA #7
+  0041B000: 00 10 01 00 E0 00 00 00 F1 33 F9 33 0A 34 51 34  ....Ю...Я3Ы3.4Q4
+  0041B010: 59 34 6A 34 79 34 89 34 D8 34 DE 34 E4 34 F2 36  Y4j4y4.4ь4ч4Д4Р6
+  0041B020: 05 37 5B 37 63 37 6E 37 73 37 78 37 7D 37 83 37  .7[7c7n7s7x7}7.7
+  0041B030: 89 37 90 37 96 37 A8 37 B0 37 B6 37 C4 37 CF 37  .7.7.7╗7╟7╤7д7о7
+  0041B040: 06 38 13 38 18 38 1D 38 23 38 29 38 2E 38 33 38  .8.8.8.8#8)8.838
+  0041B050: 39 38 41 38 47 38 98 38 9D 38 AF 38 C7 38 D8 38  98A8G8.8.8╞8г8ь8
+  0041B060: 03 39 09 39 2E 39 36 39 4B 39 54 39 5D 39 62 39  .9.9.969K9T9]9b9
+  0041B070: 8C 39 96 39 9E 39 A3 39 B1 39 BB 39 C3 39 CF 39  .9.9.9ё9╠9╩9ц9о9
+  0041B080: D7 39 ED 39 F3 39 F9 39 01 3A 19 3A 21 3A 2A 3A  в9М9С9Ы9.:.:!:*:
+  0041B090: 30 3A 37 3A 3E 3A 45 3A 53 3A 59 3A 61 3A 68 3A  0:7:>:E:S:Y:a:h:
+  0041B0A0: 6E 3A 77 3A A6 3A AC 3A B5 3A BC 3A C2 3A CB 3A  n:w:╕:╛:╣:╪:б:к:
+  0041B0B0: D7 3A 11 3B 19 3B 2A 3B AB 3B 40 3C 47 3C 62 3C  в:.;.;*;╚;@<G<b<
+  0041B0C0: AC 3C FB 3C 42 3D 66 3D A1 3D EB 3D 0B 3E 30 3E  ╛<Ш<B=f=║=К=.>0>
+  0041B0D0: 61 3E 89 3E 48 3F 4D 3F 5F 3F 9E 3F F8 3F FD 3F  a>.>H?M?_?.?Ь?Щ?
+  0041B0E0: 00 20 01 00 F4 00 00 00 0F 30 60 30 CC 30 D7 30  . ..Т....0`0л0в0
+  0041B0F0: 22 31 5C 31 90 31 95 31 0C 32 18 32 34 32 3A 32  "1\1.1.1.2.242:2
+  0041B100: 47 32 4E 32 53 32 6E 32 74 32 7D 32 86 32 8B 32  G2N2S2n2t2}2.2.2
+  0041B110: 96 32 B6 32 BF 32 C8 32 D5 32 E3 32 12 33 BC 33  .2╤2©2х2у2Ц2.3╪3
+  0041B120: C3 33 1C 34 27 34 62 34 9C 34 D0 34 D5 34 60 35  ц3.4'4b4.4п4у4`5
+  0041B130: 83 35 8A 35 A9 35 AF 35 B5 35 D9 35 DF 35 E5 35  .5.5╘5╞5╣5ы5ъ5Е5
+  0041B140: 01 36 11 36 18 36 A6 36 AC 36 BC 36 CA 36 CF 36  .6.6.6╕6╛6╪6й6о6
+  0041B150: D4 36 44 37 74 37 7B 37 8E 37 A4 37 AB 37 BE 37  т6D7t7{7.7╓7╚7╬7
+  0041B160: D8 37 DD 37 EF 37 03 38 0A 38 1D 38 3C 38 43 38  ь7щ7О7.8.8.8<8C8
+  0041B170: 4B 38 52 38 67 38 7D 38 82 38 8C 38 91 38 26 39  K8R8g8}8.8.8.8&9
+  0041B180: 2C 39 32 39 58 39 63 39 70 39 78 39 87 39 9C 39  ,929X9c9p9x9.9.9
+  0041B190: A8 39 B4 39 C4 39 0D 3A 18 3A 5A 3A 60 3A 66 3A  ╗9╢9д9.:.:Z:`:f:
+  0041B1A0: 6C 3A 72 3A A8 3B AD 3B BF 3B D8 3B F8 3C FE 3C  l:r:╗;╜;©;ь;Ь<Ч<
+  0041B1B0: 04 3D 26 3D 2B 3D 77 3D 94 3D F0 3D F9 3D 06 3E  .=&=+=w=.=П=Ы=.>
+  0041B1C0: 10 3E 18 3E 1D 3E 24 3E 75 3E 43 3F 4A 3F CC 3F  .>.>.>$>u>C?J?л?
+  0041B1D0: D3 3F 00 00 00 30 01 00 D4 00 00 00 CC 30 D7 30  с?...0..т...л0в0
+  0041B1E0: F0 30 05 31 0B 31 11 31 17 31 FC 31 07 32 0D 32  П0.1.1.1.1Э1.2.2
+  0041B1F0: 29 32 2E 32 51 32 5F 32 78 32 8E 32 C3 32 E2 32  )2.2Q2_2x2.2ц2Б2
+  0041B200: 47 33 4D 33 5C 33 65 33 6E 33 77 33 81 33 95 33  G3M3\3e3n3w3.3.3
+  0041B210: 2C 34 85 34 9F 34 32 35 44 35 4A 35 50 35 56 35  ,4.4.425D5J5P5V5
+  0041B220: 5C 35 62 35 68 35 6E 35 74 35 7A 35 8C 35 92 35  \5b5h5n5t5z5.5.5
+  0041B230: 98 35 9E 35 A4 35 AA 35 B1 35 B8 35 BF 35 C6 35  .5.5╓5╙5╠5╦5©5ф5
+  0041B240: CD 35 D4 35 DB 35 E3 35 EB 35 F3 35 FF 35 08 36  м5т5ш5Ц5К5С5Ъ5.6
+  0041B250: 0D 36 13 36 1D 36 27 36 33 36 3F 36 44 36 56 36  .6.6.6'636?6D6V6
+  0041B260: 5B 36 61 36 67 36 7F 36 86 36 D4 36 DA 36 E0 36  [6a6g6.6.6т6з6Ю6
+  0041B270: E6 36 EC 36 F2 36 F8 36 FE 36 04 37 0A 37 10 37  Ф6Л6Р6Ь6Ч6.7.7.7
+  0041B280: 16 37 1C 37 22 37 28 37 2E 37 34 37 3A 37 40 37  .7.7"7(7.747:7@7
+  0041B290: 46 37 4C 37 52 37 58 37 5E 37 64 37 6A 37 70 37  F7L7R7X7^7d7j7p7
+  0041B2A0: 76 37 7C 37 82 37 00 00 00 40 01 00 0C 00 00 00  v7|7.7...@......
+  0041B2B0: 14 37 00 00 00 60 01 00 1C 00 00 00 04 31 08 32  .7...`.......1.2
+  0041B2C0: 14 35 18 36 64 3C 68 3C 6C 3C 70 3C 74 3C 78 3C  .5.6d<h<l<p<t<x<
+  0041B2D0: 00 70 01 00 2C 00 00 00 F8 30 FC 30 00 31 04 31  .p..,...Ь0Э0.1.1
+  0041B2E0: 08 31 D0 33 D4 33 88 37 94 3A B4 3C B8 3C D4 3C  .1п3т3.7.:╢<╦<т<
+  0041B2F0: D8 3C F4 3C F8 3C 18 3D 34 3D 38 3D 00 00 00 00  ь<Т<Ь<.=4=8=....
+  0041B300: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B310: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B320: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B330: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B340: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B350: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B360: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B370: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B380: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B390: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B3A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B3B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B3C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B3D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B3E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B3F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B400: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B410: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B420: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B430: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B440: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B450: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B460: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B470: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0041B480: 00 00 00 00 00 00                                ......
+
+BASE RELOCATIONS #7
+   11000 RVA,       E0 SizeOfBlock
+     3F1  HIGHLOW            0041683C  ??_C@_0BI@OBBHLCPO@?$FLi?$FN?5I?8m?5a?5deconstructor?$AA@ (`string')
+     3F9  HIGHLOW            004192D8  __imp____iob_func
+     40A  HIGHLOW            004192DC  __imp__fprintf
+     451  HIGHLOW            00416B20  ??_C@_0BJ@GCHIHOBD@?$FLi?$FN?5I?8m?5the?5constructor?6?$AA@ (`string')
+     459  HIGHLOW            004192D8  __imp____iob_func
+     46A  HIGHLOW            004192DC  __imp__fprintf
+     479  HIGHLOW            004111EF  @ILT+490(?atExit@@YAXXZ)
+     489  HIGHLOW            004192E4  __imp__rand
+     4D8  HIGHLOW            004192E4  __imp__rand
+     4DE  HIGHLOW            004192DC  __imp__fprintf
+     4E4  HIGHLOW            004192D8  __imp____iob_func
+     6F2  HIGHLOW            0041813C
+     705  HIGHLOW            0041813C
+     75B  HIGHLOW            0041814C
+     763  HIGHLOW            004192C0  __imp____set_app_type
+     76E  HIGHLOW            00419220  __imp__EncodePointer@4
+     773  HIGHLOW            00418568  ___onexitend
+     778  HIGHLOW            00418568  ___onexitend
+     77D  HIGHLOW            00418578  ___onexitbegin
+     783  HIGHLOW            004192C4  __imp___fmode
+     789  HIGHLOW            0041817C  __fmode
+     790  HIGHLOW            004192C8  __imp___commode
+     796  HIGHLOW            00418178  __commode
+     7A8  HIGHLOW            0041801C  ___defaultmatherr
+     7B0  HIGHLOW            004111B3  @ILT+430(__matherr)
+     7B6  HIGHLOW            004192CC  __imp____setusermatherr
+     7C4  HIGHLOW            00418018  ___globallocalestatus
+     7CF  HIGHLOW            004192D0  __imp___configthreadlocale
+     806  HIGHLOW            0041101E  @ILT+25(__RTC_Terminate)
+     813  HIGHLOW            00418184  __newmode
+     818  HIGHLOW            00418154
+     81D  HIGHLOW            00418154
+     823  HIGHLOW            00418180  __dowildcard
+     829  HIGHLOW            00418144
+     82E  HIGHLOW            00418148
+     833  HIGHLOW            00418140
+     839  HIGHLOW            004192B8  __imp____wgetmainargs
+     841  HIGHLOW            00418150
+     847  HIGHLOW            00418150
+     898  HIGHLOW            00417CA0
+     89D  HIGHLOW            0041107D  @ILT+120(__except_handler4)
+     8AF  HIGHLOW            0041802C  ___security_cookie
+     8C7  HIGHLOW            0041857C  __NoHeapEnableTerminationOnCorruption
+     8D8  HIGHLOW            00419210  __imp__HeapSetInformation@16
+     903  HIGHLOW            00418564  ___native_startup_lock
+     909  HIGHLOW            00419214  __imp__InterlockedCompareExchange@12
+     92E  HIGHLOW            00419218  __imp__Sleep@4
+     936  HIGHLOW            00418554  ___native_startup_state
+     94B  HIGHLOW            00418554  ___native_startup_state
+     954  HIGHLOW            00418554  ___native_startup_state
+     95D  HIGHLOW            0041671C  ___xi_z
+     962  HIGHLOW            00416410  ___xi_a
+     98C  HIGHLOW            0041815C
+     996  HIGHLOW            00418554  ___native_startup_state
+     99E  HIGHLOW            0041630C  ___xc_z
+     9A3  HIGHLOW            00416000  ___xc_a
+     9B1  HIGHLOW            00418554  ___native_startup_state
+     9BB  HIGHLOW            00418554  ___native_startup_state
+     9C3  HIGHLOW            004168E0  ??_C@_1FA@DALEHHGL@?$AA_?$AA_?$AAn?$AAa?$AAt?$AAi?$AAv?$AAe?$AA_?$AAs?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA_?$AAs?$AAt?$AAa?$AAt?$AAe?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA_?$AA_?$AAi?$AAn?$AAi?$AAt@ (`string')
+     9CF  HIGHLOW            00416868  ??_C@_1GA@EHAKPACL@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@ (`string')
+     9D7  HIGHLOW            0041929C  __imp___CrtDbgReportW
+     9ED  HIGHLOW            00418564  ___native_startup_lock
+     9F3  HIGHLOW            0041921C  __imp__InterlockedExchange@8
+     9F9  HIGHLOW            00418580  ___dyn_tls_init_callback
+     A01  HIGHLOW            00418580  ___dyn_tls_init_callback
+     A19  HIGHLOW            00418580  ___dyn_tls_init_callback
+     A21  HIGHLOW            004192A0  __imp___CrtSetCheckCount
+     A2A  HIGHLOW            004192A4  __imp____winitenv
+     A30  HIGHLOW            00418144
+     A37  HIGHLOW            00418144
+     A3E  HIGHLOW            00418148
+     A45  HIGHLOW            00418140
+     A53  HIGHLOW            00418158
+     A59  HIGHLOW            0041814C
+     A61  HIGHLOW            00418158
+     A68  HIGHLOW            004192A8  __imp__exit
+     A6E  HIGHLOW            0041815C
+     A77  HIGHLOW            004192AC  __imp___cexit
+     AA6  HIGHLOW            00418158
+     AAC  HIGHLOW            0041814C
+     AB5  HIGHLOW            00418158
+     ABC  HIGHLOW            004192B4  __imp___exit
+     AC2  HIGHLOW            0041815C
+     ACB  HIGHLOW            004192AC  __imp___cexit
+     AD7  HIGHLOW            00418158
+     B11  HIGHLOW            00416854  ??_C@_0O@FIFMJGN@?$FLi?$FN?5I?8m?5main?6?$AA@ (`string')
+     B19  HIGHLOW            004192D8  __imp____iob_func
+     B2A  HIGHLOW            004192DC  __imp__fprintf
+     BAB  HIGHLOW            00400000
+     C40  HIGHLOW            00418000  ?_RTC_ErrorLevels@@3PAHA (int * _RTC_ErrorLevels)
+     C47  HIGHLOW            00416C64
+     C62  HIGHLOW            00416940  ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ (`string')
+     CAC  HIGHLOW            0041802C  ___security_cookie
+     CFB  HIGHLOW            00419204  __imp__MultiByteToWideChar@24
+     D42  HIGHLOW            00416DC8  ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@ (`string')
+     D66  HIGHLOW            00416C7C
+     DA1  HIGHLOW            00419208  __imp__IsDebuggerPresent@0
+     DEB  HIGHLOW            00416D78  ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ (`string')
+     E0B  HIGHLOW            0041920C  __imp__WideCharToMultiByte@32
+     E30  HIGHLOW            00416D60  ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@ (`string')
+     E61  HIGHLOW            00416D48  ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@ (`string')
+     E89  HIGHLOW            00416D20  ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@ (`string')
+     F48  HIGHLOW            00417CC0
+     F4D  HIGHLOW            0041107D  @ILT+120(__except_handler4)
+     F5F  HIGHLOW            0041802C  ___security_cookie
+     F9E  HIGHLOW            00419200  __imp__RaiseException@16
+     FF8  HIGHLOW            00417CE0
+     FFD  HIGHLOW            0041107D  @ILT+120(__except_handler4)
+   12000 RVA,       F4 SizeOfBlock
+       F  HIGHLOW            0041802C  ___security_cookie
+      60  HIGHLOW            00419200  __imp__RaiseException@16
+      CC  HIGHLOW            0041802C  ___security_cookie
+      D7  HIGHLOW            00418008
+     122  HIGHLOW            00416C94
+     15C  HIGHLOW            00416CB0
+     190  HIGHLOW            00416E4C  ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@ (`string')
+     195  HIGHLOW            00418008
+     20C  HIGHLOW            0041802C  ___security_cookie
+     218  HIGHLOW            00418010
+     234  HIGHLOW            00416FC8  ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ (`string')
+     23A  HIGHLOW            004191F4  __imp__LoadLibraryW@4
+     247  HIGHLOW            00416FBC  ??_C@_09FOPFMPEJ@wsprintfA?$AA@ (`string')
+     24E  HIGHLOW            004191F8  __imp__GetProcAddress@8
+     253  HIGHLOW            00418168  ?wsprintffp@@3P6AHPADPBDZZA (int (__cdecl* wsprintffp)(char *,char const *,...))
+     26E  HIGHLOW            00416FB0  ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@ (`string')
+     274  HIGHLOW            00416F7C  ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@ (`string')
+     27D  HIGHLOW            00416F70  ??_C@_07DFDJCKFN@?6Size?3?5?$AA@ (`string')
+     286  HIGHLOW            00416F60  ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@ (`string')
+     28B  HIGHLOW            00416F08  ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@ (`string')
+     296  HIGHLOW            00416EEC  ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@ (`string')
+     2B6  HIGHLOW            00416EE8  ??_C@_01EEMJAFIK@?6?$AA@ (`string')
+     2BF  HIGHLOW            00416EE4  ??_C@_02LLMPMKNF@?$DO?5?$AA@ (`string')
+     2C8  HIGHLOW            00416ED8  ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@ (`string')
+     2D5  HIGHLOW            004191FC  __imp__lstrlenA@4
+     2E3  HIGHLOW            00418168  ?wsprintffp@@3P6AHPADPBDZZA (int (__cdecl* wsprintffp)(char *,char const *,...))
+     312  HIGHLOW            00416E80  ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@ (`string')
+     3BC  HIGHLOW            00416FE4  ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ (`string')
+     3C3  HIGHLOW            00418168  ?wsprintffp@@3P6AHPADPBDZZA (int (__cdecl* wsprintffp)(char *,char const *,...))
+     41C  HIGHLOW            0041802C  ___security_cookie
+     427  HIGHLOW            0041800C
+     462  HIGHLOW            00416CC4
+     49C  HIGHLOW            00416CD4
+     4D0  HIGHLOW            00416FEC  ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@ (`string')
+     4D5  HIGHLOW            0041800C
+     560  HIGHLOW            004170F8
+     583  HIGHLOW            00418000  ?_RTC_ErrorLevels@@3PAHA (int * _RTC_ErrorLevels)
+     58A  HIGHLOW            00418000  ?_RTC_ErrorLevels@@3PAHA (int * _RTC_ErrorLevels)
+     5A9  HIGHLOW            0041816C
+     5AF  HIGHLOW            0041816C
+     5B5  HIGHLOW            00418170
+     5D9  HIGHLOW            00418170
+     5DF  HIGHLOW            00418170
+     5E5  HIGHLOW            0041816C
+     601  HIGHLOW            0041816C
+     611  HIGHLOW            00418170
+     618  HIGHLOW            004192D4  __imp___CRT_RTC_INITW
+     6A6  HIGHLOW            00411122  @ILT+285(?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z)
+     6AC  HIGHLOW            004191F0  __imp__SetUnhandledExceptionFilter@4
+     6BC  HIGHLOW            004192D0  __imp___configthreadlocale
+     6CA  HIGHLOW            004171D8  ??_C@_1GG@PHGJJHBC@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@ (`string')
+     6CF  HIGHLOW            004171A0  ??_C@_1CK@JMKHCBEI@?$AA_?$AAs?$AAe?$AAt?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAp?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ (`string')
+     6D4  HIGHLOW            00417128  ??_C@_1GE@KOCFNGPB@?$AA_?$AAc?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAf?$AAp?$AA_?$AAs?$AA?$CI?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?0?$AA?5?$AA0?$AAx?$AA0?$AA0?$AA0?$AA1@ (`string')
+     744  HIGHLOW            004192CC  __imp____setusermatherr
+     774  HIGHLOW            00417688
+     77B  HIGHLOW            0041788C  ___rtc_izz
+     78E  HIGHLOW            0041788C  ___rtc_izz
+     7A4  HIGHLOW            00417994
+     7AB  HIGHLOW            00417B98  ___rtc_tzz
+     7BE  HIGHLOW            00417B98  ___rtc_tzz
+     7D8  HIGHLOW            00417D00
+     7DD  HIGHLOW            0041107D  @ILT+120(__except_handler4)
+     7EF  HIGHLOW            0041802C  ___security_cookie
+     803  HIGHLOW            00418578  ___onexitbegin
+     80A  HIGHLOW            004191EC  __imp__DecodePointer@4
+     81D  HIGHLOW            00419278  __imp___onexit
+     83C  HIGHLOW            00418578  ___onexitbegin
+     843  HIGHLOW            004191EC  __imp__DecodePointer@4
+     84B  HIGHLOW            00418568  ___onexitend
+     852  HIGHLOW            004191EC  __imp__DecodePointer@4
+     867  HIGHLOW            00419220  __imp__EncodePointer@4
+     87D  HIGHLOW            00419220  __imp__EncodePointer@4
+     882  HIGHLOW            00418578  ___onexitbegin
+     88C  HIGHLOW            00419220  __imp__EncodePointer@4
+     891  HIGHLOW            00418568  ___onexitend
+     926  HIGHLOW            004192C0  __imp____set_app_type
+     92C  HIGHLOW            004192BC  __imp___amsg_exit
+     932  HIGHLOW            004192B8  __imp____wgetmainargs
+     958  HIGHLOW            0041802C  ___security_cookie
+     963  HIGHLOW            0041802C  ___security_cookie
+     970  HIGHLOW            0041802C  ___security_cookie
+     978  HIGHLOW            00418030  ___security_cookie_complement
+     987  HIGHLOW            004191D8  __imp__GetSystemTimeAsFileTime@4
+     99C  HIGHLOW            004191DC  __imp__GetCurrentProcessId@0
+     9A8  HIGHLOW            004191E0  __imp__GetCurrentThreadId@0
+     9B4  HIGHLOW            004191E4  __imp__GetTickCount@0
+     9C4  HIGHLOW            004191E8  __imp__QueryPerformanceCounter@4
+     A0D  HIGHLOW            0041802C  ___security_cookie
+     A18  HIGHLOW            00418030  ___security_cookie_complement
+     A5A  HIGHLOW            004192B4  __imp___exit
+     A60  HIGHLOW            004192B0  __imp___XcptFilter
+     A66  HIGHLOW            004192AC  __imp___cexit
+     A6C  HIGHLOW            004192A8  __imp__exit
+     A72  HIGHLOW            004192A0  __imp___CrtSetCheckCount
+     BA8  HIGHLOW            00417D20
+     BAD  HIGHLOW            0041107D  @ILT+120(__except_handler4)
+     BBF  HIGHLOW            0041802C  ___security_cookie
+     BD8  HIGHLOW            00400000
+     CF8  HIGHLOW            0041929C  __imp___CrtDbgReportW
+     CFE  HIGHLOW            00419298  __imp___initterm
+     D04  HIGHLOW            00419294  __imp___initterm_e
+     D26  HIGHLOW            00411014  @ILT+15(@__security_check_cookie@4)
+     D2B  HIGHLOW            0041802C  ___security_cookie
+     D77  HIGHLOW            004191C4  __imp__VirtualQuery@12
+     D94  HIGHLOW            004191C8  __imp__GetModuleFileNameW@12
+     DF0  HIGHLOW            0041818C
+     DF9  HIGHLOW            00418188
+     E06  HIGHLOW            00418188
+     E10  HIGHLOW            0041818C
+     E18  HIGHLOW            00418188
+     E1D  HIGHLOW            0041729C  ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@ (`string')
+     E24  HIGHLOW            004191F8  __imp__GetProcAddress@8
+     E75  HIGHLOW            00417298  ??_C@_01KDCPPGHE@r?$AA@ (`string')
+     F43  HIGHLOW            004191CC  __imp__GetProcessHeap@0
+     F4A  HIGHLOW            004191D0  __imp__HeapAlloc@12
+     FCC  HIGHLOW            004191CC  __imp__GetProcessHeap@0
+     FD3  HIGHLOW            004191D4  __imp__HeapFree@12
+       0  ABS                        
+   13000 RVA,       D4 SizeOfBlock
+      CC  HIGHLOW            0041802C  ___security_cookie
+      D7  HIGHLOW            0041818D
+      F0  HIGHLOW            0041818D
+     105  HIGHLOW            00417270
+     10B  HIGHLOW            004191C0  __imp__GetModuleHandleW@4
+     111  HIGHLOW            004191F4  __imp__LoadLibraryW@4
+     117  HIGHLOW            004191C8  __imp__GetModuleFileNameW@12
+     1FC  HIGHLOW            0041802C  ___security_cookie
+     207  HIGHLOW            0041738C  ??_C@_1BK@GAEMIDIL@?$AAA?$AAD?$AAV?$AAA?$AAP?$AAI?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ (`string')
+     20D  HIGHLOW            004191F4  __imp__LoadLibraryW@4
+     229  HIGHLOW            004191F8  __imp__GetProcAddress@8
+     22E  HIGHLOW            0041737C  ??_C@_0O@COHOBMLB@RegOpenKeyExW?$AA@ (`string')
+     251  HIGHLOW            00417368  ??_C@_0BB@GLNAEDBD@RegQueryValueExW?$AA@ (`string')
+     25F  HIGHLOW            00417358  ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@ (`string')
+     278  HIGHLOW            004172E8  ??_C@_1FM@DNCABAP@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAV?$AAi?$AAs?$AAu?$AAa?$AAl?$AAS?$AAt?$AAu?$AAd?$AAi?$AAo?$AA?2@ (`string')
+     28E  HIGHLOW            004191BC  __imp__FreeLibrary@4
+     2C3  HIGHLOW            004172B0  ??_C@_1CK@HHHCOJPD@?$AAE?$AAn?$AAv?$AAi?$AAr?$AAo?$AAn?$AAm?$AAe?$AAn?$AAt?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt?$AAo?$AAr?$AAy?$AA?$AA@ (`string')
+     2E2  HIGHLOW            004191BC  __imp__FreeLibrary@4
+     347  HIGHLOW            00417254
+     34D  HIGHLOW            00417258
+     35C  HIGHLOW            0041725C
+     365  HIGHLOW            00417260
+     36E  HIGHLOW            00417264
+     377  HIGHLOW            00417268
+     381  HIGHLOW            0041726C
+     395  HIGHLOW            004191F4  __imp__LoadLibraryW@4
+     42C  HIGHLOW            0041802C  ___security_cookie
+     485  HIGHLOW            004173B8
+     49F  HIGHLOW            004173AC
+     532  HIGHLOW            0041802C  ___security_cookie
+     544  HIGHLOW            00419290  __imp_?terminate@@YAXXZ (__declspec(dllimport) void __cdecl terminate(void))
+     54A  HIGHLOW            0041928C  __imp___controlfp_s
+     550  HIGHLOW            00419288  __imp___invoke_watson
+     556  HIGHLOW            00419284  __imp___unlock
+     55C  HIGHLOW            00419280  __imp____dllonexit
+     562  HIGHLOW            0041927C  __imp___lock
+     568  HIGHLOW            00419274  __imp___except_handler4_common
+     56E  HIGHLOW            0041926C  __imp___wmakepath_s
+     574  HIGHLOW            00419268  __imp__wcscpy_s
+     57A  HIGHLOW            004192E0  __imp___wsplitpath_s
+     58C  HIGHLOW            00418298
+     592  HIGHLOW            00418294
+     598  HIGHLOW            00418290
+     59E  HIGHLOW            0041828C
+     5A4  HIGHLOW            00418288
+     5AA  HIGHLOW            00418284
+     5B1  HIGHLOW            004182B0
+     5B8  HIGHLOW            004182A4
+     5BF  HIGHLOW            00418280
+     5C6  HIGHLOW            0041827C
+     5CD  HIGHLOW            00418278
+     5D4  HIGHLOW            00418274
+     5DB  HIGHLOW            004182A8
+     5E3  HIGHLOW            0041829C
+     5EB  HIGHLOW            004182A0
+     5F3  HIGHLOW            004182AC
+     5FF  HIGHLOW            004181E8
+     608  HIGHLOW            004182A0
+     60D  HIGHLOW            0041819C
+     613  HIGHLOW            00418190
+     61D  HIGHLOW            00418194
+     627  HIGHLOW            0041802C  ___security_cookie
+     633  HIGHLOW            00418030  ___security_cookie_complement
+     63F  HIGHLOW            00419208  __imp__IsDebuggerPresent@0
+     644  HIGHLOW            004181E0
+     656  HIGHLOW            004191F0  __imp__SetUnhandledExceptionFilter@4
+     65B  HIGHLOW            004173D0
+     661  HIGHLOW            00419224  __imp__UnhandledExceptionFilter@4
+     667  HIGHLOW            004181E0
+     67F  HIGHLOW            004191B4  __imp__GetCurrentProcess@0
+     686  HIGHLOW            004191B8  __imp__TerminateProcess@8
+     6D4  HIGHLOW            00419270  __imp___crt_debugger_hook
+     6DA  HIGHLOW            00419220  __imp__EncodePointer@4
+     6E0  HIGHLOW            0041921C  __imp__InterlockedExchange@8
+     6E6  HIGHLOW            00419218  __imp__Sleep@4
+     6EC  HIGHLOW            00419214  __imp__InterlockedCompareExchange@12
+     6F2  HIGHLOW            00419210  __imp__HeapSetInformation@16
+     6F8  HIGHLOW            0041920C  __imp__WideCharToMultiByte@32
+     6FE  HIGHLOW            00419208  __imp__IsDebuggerPresent@0
+     704  HIGHLOW            00419204  __imp__MultiByteToWideChar@24
+     70A  HIGHLOW            00419200  __imp__RaiseException@16
+     710  HIGHLOW            004191FC  __imp__lstrlenA@4
+     716  HIGHLOW            004191F8  __imp__GetProcAddress@8
+     71C  HIGHLOW            004191F4  __imp__LoadLibraryW@4
+     722  HIGHLOW            004191F0  __imp__SetUnhandledExceptionFilter@4
+     728  HIGHLOW            004191EC  __imp__DecodePointer@4
+     72E  HIGHLOW            004191E8  __imp__QueryPerformanceCounter@4
+     734  HIGHLOW            004191E4  __imp__GetTickCount@0
+     73A  HIGHLOW            004191E0  __imp__GetCurrentThreadId@0
+     740  HIGHLOW            004191DC  __imp__GetCurrentProcessId@0
+     746  HIGHLOW            004191D8  __imp__GetSystemTimeAsFileTime@4
+     74C  HIGHLOW            004191D4  __imp__HeapFree@12
+     752  HIGHLOW            004191D0  __imp__HeapAlloc@12
+     758  HIGHLOW            004191CC  __imp__GetProcessHeap@0
+     75E  HIGHLOW            004191C8  __imp__GetModuleFileNameW@12
+     764  HIGHLOW            004191C4  __imp__VirtualQuery@12
+     76A  HIGHLOW            004191C0  __imp__GetModuleHandleW@4
+     770  HIGHLOW            004191BC  __imp__FreeLibrary@4
+     776  HIGHLOW            004191B8  __imp__TerminateProcess@8
+     77C  HIGHLOW            004191B4  __imp__GetCurrentProcess@0
+     782  HIGHLOW            00419224  __imp__UnhandledExceptionFilter@4
+       0  ABS                        
+   14000 RVA,        C SizeOfBlock
+     714  HIGHLOW            00418138  ?intGlobal@@3HA (int intGlobal)
+       0  ABS                        
+   16000 RVA,       1C SizeOfBlock
+     104  HIGHLOW            00411800
+     208  HIGHLOW            004146F0
+     514  HIGHLOW            00411750
+     618  HIGHLOW            00411127  @ILT+290(___CxxSetUnhandledExceptionFilter)
+     C64  HIGHLOW            00416B58  ??_C@_0NN@NGPKDKPD@The?5value?5of?5ESP?5was?5not?5properl@ (`string')
+     C68  HIGHLOW            00416A00  ??_C@_0BBN@GPMLNJCF@A?5cast?5to?5a?5smaller?5data?5type?5ha@ (`string')
+     C6C  HIGHLOW            004169D8  ??_C@_0BN@FFOINMNJ@Stack?5memory?5was?5corrupted?6?$AN?$AA@ (`string')
+     C70  HIGHLOW            00416998  ??_C@_0DG@HKJMLLLP@A?5local?5variable?5was?5used?5before@ (`string')
+     C74  HIGHLOW            00416964  ??_C@_0CM@NGINOKPC@Stack?5memory?5around?5_alloca?5was?5@ (`string')
+     C78  HIGHLOW            00416940  ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ (`string')
+   17000 RVA,       2C SizeOfBlock
+      F8  HIGHLOW            004170D8  ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption?$AA@ (`string')
+      FC  HIGHLOW            004170A4  ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5los@ (`string')
+     100  HIGHLOW            00417088  ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption?$AA@ (`string')
+     104  HIGHLOW            00417054  ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5initi@ (`string')
+     108  HIGHLOW            0041702C  ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted?$AA@ (`string')
+     3D0  HIGHLOW            00418190
+     3D4  HIGHLOW            004181E8
+     788  HIGHLOW            004110CD  @ILT+200(__RTC_InitBase)
+     A94  HIGHLOW            004110B4  @ILT+175(__RTC_Shutdown)
+     CB4  HIGHLOW            00411A84
+     CB8  HIGHLOW            00411A9F
+     CD4  HIGHLOW            00411FA4
+     CD8  HIGHLOW            00411FAA
+     CF4  HIGHLOW            00412066
+     CF8  HIGHLOW            0041206C
+     D18  HIGHLOW            004128A3
+     D34  HIGHLOW            00412C69
+     D38  HIGHLOW            00412C83
+
+  Summary
+
+        1000 .data
+        1000 .idata
+        2000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        5000 .text
+       10000 .textbss

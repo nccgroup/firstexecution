@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsPENative", "WindowsPENative\WindowsPENative.vcxproj", "{4E1F4554-0E80-4615-A503-02E700FAE5E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsPENativeDLL", "WindowsPENativeDLL\WindowsPENativeDLL.vcxproj", "{8214D4BF-227E-4D93-8FAB-7CA695C3746F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLLLoader", "DLLLoader\DLLLoader.vcxproj", "{7D95BAD3-2D2D-4F2C-953B-563228A35F95}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsPENativeTLSCallBack", "WindowsPENativeTLSCallBack\WindowsPENativeTLSCallBack.vcxproj", "{E93AEEBD-FD15-45D2-8C38-721F5B0211B3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsPENativeDLLTLSCallBack", "WindowsPENativeDLLTLSCallBack\WindowsPENativeDLLTLSCallBack.vcxproj", "{85DBB94B-2103-4804-B42B-C330B78CC878}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E1F4554-0E80-4615-A503-02E700FAE5E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E1F4554-0E80-4615-A503-02E700FAE5E1}.Debug|Win32.Build.0 = Debug|Win32
+		{4E1F4554-0E80-4615-A503-02E700FAE5E1}.Release|Win32.ActiveCfg = Release|Win32
+		{4E1F4554-0E80-4615-A503-02E700FAE5E1}.Release|Win32.Build.0 = Release|Win32
+		{8214D4BF-227E-4D93-8FAB-7CA695C3746F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8214D4BF-227E-4D93-8FAB-7CA695C3746F}.Debug|Win32.Build.0 = Debug|Win32
+		{8214D4BF-227E-4D93-8FAB-7CA695C3746F}.Release|Win32.ActiveCfg = Release|Win32
+		{8214D4BF-227E-4D93-8FAB-7CA695C3746F}.Release|Win32.Build.0 = Release|Win32
+		{7D95BAD3-2D2D-4F2C-953B-563228A35F95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D95BAD3-2D2D-4F2C-953B-563228A35F95}.Debug|Win32.Build.0 = Debug|Win32
+		{7D95BAD3-2D2D-4F2C-953B-563228A35F95}.Release|Win32.ActiveCfg = Release|Win32
+		{7D95BAD3-2D2D-4F2C-953B-563228A35F95}.Release|Win32.Build.0 = Release|Win32
+		{E93AEEBD-FD15-45D2-8C38-721F5B0211B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E93AEEBD-FD15-45D2-8C38-721F5B0211B3}.Debug|Win32.Build.0 = Debug|Win32
+		{E93AEEBD-FD15-45D2-8C38-721F5B0211B3}.Release|Win32.ActiveCfg = Release|Win32
+		{E93AEEBD-FD15-45D2-8C38-721F5B0211B3}.Release|Win32.Build.0 = Release|Win32
+		{85DBB94B-2103-4804-B42B-C330B78CC878}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85DBB94B-2103-4804-B42B-C330B78CC878}.Debug|Win32.Build.0 = Debug|Win32
+		{85DBB94B-2103-4804-B42B-C330B78CC878}.Release|Win32.ActiveCfg = Release|Win32
+		{85DBB94B-2103-4804-B42B-C330B78CC878}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

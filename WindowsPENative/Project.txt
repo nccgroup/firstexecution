@@ -1,0 +1,35 @@
+
+
+- So EMC
+
+http://jilc.sourceforge.net/ecma_p2_cil.shtml
+
+"15.3.3      Unmanaged Thread-local Storage
+
+Implementation Specific (Microsoft)
+
+Each PE file has a particular section whose initial contents are copied whenever a new thread is created. This section is 
+called unmanaged thread local storage. The Microsoft implementation of ilasm allows the creation of this unmanaged thread 
+local storage by extending the data declaration to include an option attribute, tls:
+
+     <dataDecl> ::= [tls] [<dataLabel> =] <ddBody>
+
+The CLI provides two mechanisms for dealing with thread-local storage (tls): an unmanaged mechanism and a managed mechanism. 
+The unmanaged mechanism has a number of restrictions which are carried forward directly from the underlying platform into the
+ CLI. For example, the amount of thread local storage is determined when the PE file is loaded and cannot be expanded. The amount 
+ is computed based on the static dependencies of the PE file, DLLs that are loaded as a program executes cannot create their own 
+ thread local storage through this mechanism. The managed mechanism, which does not have these restrictions, is part of the Base 
+ Class Library.
+
+For unmanaged tls there is a particular native code sequence that can be used to locate the start of this section for the current 
+thread. The CLI respects this mechanism. That is, when a reference is made to a static variable with a fixed RVA in the PE file and 
+that RVA is in the thread-local section of the PE, the native code generated from the CIL will use the thread-local access sequence.
+
+This has two important consequences:
+
+A static variable with a specified RVA shall reside entirely in a single section of the PE file. The RVA specifies where the data 
+begins and the type of the variable specifies how large the data area is.
+
+When a new thread is created it is only the data from the PE file that is used to initialize the new copy of the variable. There is no 
+opportunity to run the type initializer. For this reason it is probably wise to restrict the use of unmanaged thread local storage 
+to the primitive numeric types and value types with explicit layout that have a fixed initial value and no type initializer.
