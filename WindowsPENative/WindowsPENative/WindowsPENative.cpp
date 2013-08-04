@@ -19,6 +19,7 @@
 // http://buliedian.iteye.com/blog/1069072
 // http://research.microsoft.com/en-us/um/redmond/projects/invisible/src/crt/md/ppc/_crt.c.htm
 // http://src.chromium.org/svn/trunk/src/native_client_sdk/src/libraries/third_party/pthreads-win32/autostatic.c
+// http://ci.boost.org/websvn/filedetails.php?repname=repos+1&path=%2Fbranches%2Frelease%2Flibs%2Fthread%2Fsrc%2Fwin32%2Ftss_pe.cpp&rev=66259&peg=66259
 //
 //
 // Now a little rant:
@@ -26,7 +27,7 @@
 //  .CRT$XTU which is not the case in my testing using (Visual Studio 2010 Pro):
 //     Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01
 //     Microsoft (R) Incremental Linker Version 10.00.40219.01
-//  instead to get this working I used .CRT$XTU which is maybe not the right thing to do.
+//  instead to get this working I used .CRT$XTZ which is maybe not the right thing to do. - this however seems flaky
 // 
 
 // Called before the program exits
@@ -51,7 +52,6 @@ int intGlobalInit(){
 	//
 	atexit(atExit);
 	_onexit(onExit);
-
 	return 0;
 }
 
@@ -71,13 +71,13 @@ int _tmain(int argc, _TCHAR* argv[])
 
 int premain(void)
 {
-   fprintf(stdout,"[i] I'm a constructor\n");
+   fprintf(stdout,"[i] I'm a constructor via a section\n");
    return 0;
 }
 
 int aftermain(void)
 {
-   fprintf(stdout,"[i] I run after main\n");
+   fprintf(stdout,"[i] I run after main via a section\n");
    return 0;
 }
 
@@ -91,23 +91,35 @@ typedef int MyFuncDef(void);
 // \CRT\SRC\CRT0INIT.C
 //
 
+// C initializers 
 #pragma section(".CRT$XIU", long, read)
 #pragma data_seg(".CRT$XIU")
 static MyFuncDef *autostart[] = { premain};
+#pragma data_seg() 
 
+// C++ initializers
 #pragma section(".CRT$XCU", long, read)
 #pragma data_seg(".CRT$XCU")
 static MyFuncDef *autostart2[] = { premain};
+#pragma data_seg() 
 
-#pragma section(".CRT$XPZ", long, read)
-#pragma data_seg(".CRT$XPZ")
-static MyFuncDef *autoexit[] = { aftermain };
+// C pre-terminators
+// this doesn't work for some reason 
+//#pragma section(".CRT$XPU", long, read)
+//#pragma data_seg(".CRT$XPU")
+//static MyFuncDef *autoexit[] = { aftermain };
 
+// C terminators 
 // .CRT$XTU doesn't work hence we use .CRT$XTZ
-#pragma section(".CRT$XTA", long, read)
-#pragma data_seg(".CRT$XTA")
-static MyFuncDef *autoexit2[] = { aftermain };
+// this doesn't work for some reason reliably - i.e. did in the past not now
 
-#pragma data_seg()    /* reset data-segment */
+#pragma section(".CRT$XTU", long, read)
+	__declspec(allocate(".CRT$XTU"))MyFuncDef *autoexit2[]  = { aftermain };
+
+// This another way of doing the above
+// #pragma section(".CRT$XTU", long, read)
+//#pragma data_seg(".CRT$XTU")
+//static MyFuncDef *autoexit2[] = { aftermain };
+//#pragma data_seg()    /* reset data-segment */
 
 

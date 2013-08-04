@@ -64,13 +64,14 @@ static MyFuncDef *autostart[] = { premain};
 #pragma data_seg(".CRT$XCU")
 static MyFuncDef *autostart2[] = { premain};
 
+// Doesn't work see .exe version
 #pragma section(".CRT$XPU", long, read)
 #pragma data_seg(".CRT$XPU")
 static MyFuncDef *autoexit[] = { aftermain };
 
-// .CRT$XTU doesn't work hence we use .CRT$XTZ
-#pragma section(".CRT$XLZ", long, read)
-#pragma data_seg(".CRT$XLZ")
+// Doesn't work see .exe version
+#pragma section(".CRT$XTU", long, read)
+#pragma data_seg(".CRT$XTU")
 static MyFuncDef *autoexit2[] = { aftermain };
 
 #pragma data_seg()    /* reset data-segment */
